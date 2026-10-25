@@ -1,0 +1,27 @@
+{
+  "id": 520,
+  "slug": "average-gp-salary-australia",
+  "keyword": "average gp salary australia",
+  "title": "Average GP Salary Australia: Hourly Rates, Annual Pay, and Tax Guide",
+  "description": "Find the average GP salary Australia for 2026-2027. Compare award rates, registrar pay, and full-time earnings. Use our hourly to annual calculator with tax and super estimates.",
+  "salarySummary": "For a GP registrar under the NTCER, the base rate is $50.53 per hour for a 38-hour week, equating to $99,847 per year plus 12% super.",
+  "faqs": [
+    {
+      "q": "What is the average GP salary in Australia?",
+      "a": "There is no single average GP salary because earnings vary by experience, location, and practice type. For GP registrars training under the National Terms and Conditions for the Employment of Registrars (NTCER), the 2026-2027 base rates range from $50.53 to $60.55 per hour, or $99,847 to $119,647 per year for a 38-hour week, plus 12% superannuation. Fully qualified GPs often earn more, but the Fair Work Medical Practitioners Award sets minimums for interns at $33.62 per hour and registrars at $40.61 per hour. The Australian Bureau of Statistics reports full-time adult average weekly ordinary time earnings of $2,083.70 (May 2026), which is about $108,352 per year, but this covers all professions."
+    },
+    {
+      "q": "How do I calculate annual pay from an hourly rate?",
+      "a": "Multiply your hourly rate by the number of hours you work per week, then by 52 weeks. For a standard full-time week of 38 hours, the formula is: hourly rate × 38 × 52. For example, $50.53 per hour × 38 × 52 = $99,847.28 per year. Your fortnightly pay is the weekly amount times two. Remember that superannuation (12% from 1 July 2025) is paid on top of your ordinary earnings, and tax is deducted from your gross pay. Use our [hourly conversion](/topics/hourly-conversion) tool to see your estimated take-home pay."
+    },
+    {
+      "q": "What super and tax apply to GP salaries?",
+      "a": "Superannuation is 12% of your ordinary earnings, paid by your employer on top of your salary, up to the maximum contribution base of $270,830 (2026-27). For tax, the 2026-27 resident rates apply: nil on the first $18,200, then 15% up to $45,000, 30% up to $135,000, 37% up to $190,000, and 45% above that. A Medicare levy of 2% is also deducted. These are estimates; your actual tax may differ due to HELP loans or other factors. See our [take-home pay](/topics/take-home) guide for more details."
+    }
+  ],
+  "bodyMarkdown": "## Understanding Average GP Salary Australia\n\nWhen researching the **average gp salary australia**, it helps to start with the hourly rate and work up to annual figures. Most full-time medical practitioners work a 38-hour week, as defined by the Fair Work Medical Practitioners Award 2020. This guide uses that assumption unless stated otherwise.\n\n### Hourly to Annual Conversion\n\nThe basic formula is straightforward: hourly rate × hours per week × 52 weeks. For a GP registrar on the NTCER base rate of $50.53 per hour, that gives:\n\n- Weekly: $50.53 × 38 = $1,920.14\n- Fortnightly: $1,920.14 × 2 = $3,840.28\n- Annual: $1,920.14 × 52 = $99,847.28\n\nSuperannuation of 12% is paid on top of this, so the total employment cost is about $111,829 per year. The [average pay](/topics/average-pay) page compares this against other occupations.\n\n### Award Minimums vs. Market Rates\n\nThe Fair Work Ombudsman sets minimum rates under the Medical Practitioners Award. For 2026-27 rates include:\n\n- Intern: $33.62 per hour\n- Resident (Pay point 1) $40.61\n- Registrar (Pay point 4) $45.56\n\nThese are the legal floor. Many GPs earn more, especially after completing training. The NTCER rates for GP registrars are higher:\n\n- GPT/PRRT/CGT 1: $49.25 per hour ($97,318/year\n- GPT/PRRT/CGT 2: $55.27 per hour ($109,214/year\n\nFor a Senior Specialist, the award minimums start at $80,248 per year.\n\n### Casual Loading and Superannuation\n\nIf you are a casual medical practitioner, you receive a 25% loading on top of the ordinary hourly rate. For example, a casual intern at $33.62 gets $33.62 + 25% = $42.03 per hour. The [casual loading](/topics/casual-loading) page explains how to use the timesheet tool.\n\n### Tax and Medicare\n\nResident tax 2026-27: nil to $18,200; 15% to $45,000; 30% to $135,000; 37% to $190,000; 45% above. Medicare levy 2% generally applies. These are estimates.\n\n## Using the Hourly to Annual Calculator\n\nOur [hourly conversion](/topics/hourly-conversion) tool lets you enter your base rate, then adds 25% casual loading if you check the box. Never type a rate that already includes casual loading.\n\n### Fortnightly Pay\n\nFortnightly pay is weekly × 2. For $50.53 per hour, fortnight = $3,840.28. This helps budget.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

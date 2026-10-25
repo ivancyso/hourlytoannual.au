@@ -1,0 +1,27 @@
+{
+  "id": 356,
+  "slug": "how-to-salary-sacrifice-super",
+  "keyword": "how to salary sacrifice super",
+  "title": "How to Salary Sacrifice Super and Convert Your Hourly Wage to Annual Salary",
+  "description": "Learn how to salary sacrifice super and convert your hourly rate to annual pay using a 38-hour week. Includes tax, super, fortnightly pay, and minimum wage details.",
+  "salarySummary": "Assuming a 38-hour week and 52-week year, your annual gross pay is your hourly rate multiplied by 1,976 hours.",
+  "faqs": [
+    {
+      "q": "Does the calculator include casual loading automatically?",
+      "a": "No. On [the timesheet](/) you enter your base hourly rate, then check the casual loading box to add 25% on top. Never type a rate that already includes casual loading."
+    },
+    {
+      "q": "What are the 2026–27 tax brackets for 2026–27?",
+      "a": "For 2026–27 resident tax: nil to $18,200; 15% to $45,000; 30% to $135,000; 37% to $190,000; 45% above. Medicare levy is generally 2%."
+    },
+    {
+      "q": "How do I arrange salary sacrifice for super?",
+      "a": "To learn how to salary sacrifice super, you ask your employer to pay part of your pre-tax salary into your super fund. It reduces your taxable income but is not included in the estimate here."
+    }
+  ],
+  "bodyMarkdown": "## How to Convert Your Hourly Rate Becomes Annual Pay\n\nTo turn your hourly rate to annual pay, multiply your hourly rate × hours per week × 52 weeks. For a standard 38-hour week, that is 38 hours. For other hours, use the actual hours. The formula is: annual gross = hourly × hours per week × 52. For example, $30 per hour at 38 hours gives $30 × 38 × 52 = $59,280. Fortnightly is weekly × 2.\n\n### National Minimum Wage and Award Rates\n\nThe National Minimum Wage from 1 July 2026 is $26.44 per hour, $1,004.9 per week for 38 hours. Casual loading 25% on top gives $33.05 per hour. Award rates may be higher. See [minimum wage](/topics/minimum-wage) for more.\n\n### Including Casual Loading\n\nOn [the timesheet](/), you enter base hourly rate. A checkbox adds 25% casual loading. Do not type a rate that already includes casual loading. For example, base $26.44 with loading becomes $33.05.\n\n### Superannuation Guarantee\n\nSuper is 12% of ordinary earnings, paid on top, up to $270,830 maximum contribution base. For $59,280 annual, super is $7,113.6. See [super and packaging](/topics/super-and-packaging) for how to salary sacrifice super.\n\n### How to Salary Sacrifice Super\n\nIf you want to salary sacrifice super, you arrange with your employer to have part of your pre-tax salary paid into your super fund. This reduces taxable income. The estimate here does not include salary sacrifice. To learn how to salary sacrifice super, you need a written agreement. The super guarantee is separate.\n\n### Tax on Your Annual Pay\n\n2026–27 resident tax: nil to $18,200; 15% to $45,000; 30% to $135,000; 37% to $190,000; 45% above. Medicare levy 2%. For $59,280, tax about $12,888 plus Medicare. See [take-home pay](/topics/take-home) for more.\n\n### Fortnightly Pay\n\nFortnightly pay is weekly × 2. For $30 per hour, fortnight $2,280. Useful for budgeting.\n\n### Important Disclaimer\n\nAnnual pay is hourly rate × hours per week × 52. Assumes same rate every week, no unpaid overtime, no penalty rates, no allowances, no salary sacrifice. Super estimated 12% of ordinary earnings only, paid on top, stops at $270,830 maximum contribution base. Tax 2026–27 resident scale with full tax-free threshold. Medicare uses 2025–26 single reduction thresholds because 2026–27 not confirmed here. HELP, Medicare levy surcharge, salary packaging not deducted. This is estimate, not determination of pay or tax.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": false,
+  "webSearchReason": "local-salary-db"
+}

@@ -1,0 +1,24 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { topics } from "../../lib/topics";
+---
+
+<BaseLayout
+  title="Topics"
+  description="Browse Australian pay guides by minimum wage, take-home pay, super, average earnings, and hourly conversion."
+>
+  <section class="section">
+    <p class="kicker">Topics</p>
+    <h1>Pick the part of pay you need</h1>
+    <div class="topic-grid">
+      {
+        topics.map((topic) => (
+          <a href={`/topics/${topic.slug}`}>
+            <strong>{topic.name}</strong>
+            <span>{topic.description}</span>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>

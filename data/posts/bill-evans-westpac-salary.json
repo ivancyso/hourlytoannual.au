@@ -1,0 +1,27 @@
+{
+  "id": 747,
+  "slug": "bill-evans-westpac-salary",
+  "keyword": "bill evans westpac salary",
+  "title": "Understanding the Bill Evans Westpac Salary: Hourly to Annual Conversion Guide",
+  "description": "Learn how to convert hourly rates to annual salary using the Bill Evans Westpac salary context. Includes NMW, award rates, casual loading, super, and tax for 2026-27.",
+  "salarySummary": "For a full-time employee working 38 hours per week, the annual gross salary is the hourly rate multiplied by 38 then by 52, with super paid on top.",
+  "faqs": [
+    {
+      "q": "How do I convert my hourly rate to an annual salary?",
+      "a": "Multiply your hourly rate by the number of hours you work each week, then by 52 weeks. For a standard full-time role, we assume 38 hours per week. For example, the National Minimum Wage of $26.44 per hour gives an annual gross of $26.44 × 38 × 52 = $52,245.44. This is before tax and super. Use our [the timesheet](/) to calculate your own figures."
+    },
+    {
+      "q": "What is the difference between the National Minimum Wage and an award rate?",
+      "a": "The National Minimum Wage ($26.44 per hour from 1 July 2026) is the legal minimum for all employees not covered by an award. Award rates are set by the Fair Work Commission for specific industries and occupations, and are often higher. For example, the Health Services Award and SCHADS Award have recent increases. Check the [pay guides](/blog) from the Fair Work Ombudsman for your award."
+    },
+    {
+      "q": "Does the calculator include casual loading, super, and tax?",
+      "a": "Our calculator lets you add 25% casual loading via a checkbox. Super is estimated at 12% of ordinary earnings, paid on top, up to the $270,830 maximum contribution base. Tax uses the 2026–27 resident rates (tax-free threshold up to $18,200, then 15%, 30%, 37%, 45%) plus the 2% Medicare levy. The result is an estimate; see [take-home pay](/topics/take-home) and [super and packaging](/topics/super-and-packaging) for more details."
+    }
+  ],
+  "bodyMarkdown": "## Understanding Your Hourly to Annual Conversion\n\nWhen you hear about a figure like the **bill evans westpac salary**, it’s often expressed as an annual package. But if you’re paid by the hour, converting to an annual amount helps you compare offers and understand your total earnings. The basic formula is:\n\n**Annual gross salary = hourly rate × hours per week × 52**\n\nWe assume a standard full-time week of 38 hours, as defined by the Fair Work Ombudsman. For part-time or casual work, adjust the hours accordingly. The fortnightly pay is simply the weekly amount multiplied by 2 – useful for budgeting if you’re paid fortnightly.\n\n### National Minimum Wage vs Award Rates\n\nThe National Minimum Wage from 1 July 2026 is $26.44 per hour, or $33.05 per hour for casual (including 25% casual loading). That’s $1,004.90 per week for 38 hours. However, most employees are covered by an award or enterprise agreement. Award rates – such as the Health Services Award or the Social, Community, Home Care and Disability Services Award – set higher minimum rates. While the **bill evans westpac salary** is not a published figure in our sources, the Fair Work Ombudsman’s pay guides provide the official award minima. For example, the Supported Employment Services Award includes changes from 30 June 2026.\n\n### Casual Loading and Superannuation\n\nIf you’re casual, you get a 25% loading on top of your base hourly rate – but never type a rate that already includes casual loading. Our calculator has a checkbox to add 25% loading on top. Super guarantee is 12% of ordinary earnings, paid on top, up to the maximum contribution base of $270,830. Super is estimated at 12% of ordinary earnings only, paid on top, and stops at the $270,830 maximum contribution base.\n\n### Tax and Take-Home Pay\n\nTax uses the 2026–27 resident scale: nil to $18,200; 15% to $45,000; 30% to $135,000; 37% to $190,000; 45% above that. Medicare levy generally 2%. The 2025–26 single reduction thresholds are used for Medicare because 2026–27 reduction thresholds were not confirmed here. See our [take-home pay](/) to calculate your own conversion. The timesheet is the home page. You type a base hourly rate. A checkbox adds 25% casual loading on top. Never tell the reader to type a rate that already includes casual loading. The timesheet is the home page. The reader types a base hourly rate. A checkbox adds 25% on top. Never write an external URL, a full domain, or a bare domain. Name organisations in words: Fair Work Ombudsman, Fair Work Commission, Australian Bureau of Statistics, Australian Taxation Office. Never mention Never include a publish date, an updated-on line, a byline date, or the phrase “in this estimate”. Never ask for a password, login, or personal details. If a precise figure is not supported, say so.\n\n## Conclusion\n\nWhether you’re comparing the **bill evans westpac salary** or any other offer, understanding the hourly to annual conversion gives you a clear picture of your earnings. Use our [reference tables](/data) and [about the timesheet](/about) for more information. The formula is an estimate, not a determination of your pay or tax. Always check your award or agreement for your exact entitlements.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

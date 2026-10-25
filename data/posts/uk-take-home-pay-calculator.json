@@ -1,0 +1,27 @@
+{
+  "id": 1264,
+  "slug": "uk-take-home-pay-calculator",
+  "keyword": "uk take home pay calculator",
+  "title": "Using a UK Take Home Pay Calculator for Australian Pay: Hourly to Annual Conversion",
+  "description": "Learn how to convert your hourly rate to annual salary using the 38-hour week formula, understand casual loading, super paid on top, and tax estimates. A UK take home pay calculato",
+  "salarySummary": "For a full-time employee working 38 hours per week, the National Minimum Wage of $26.44 per hour yields an annual gross salary of $52,254.80 before tax and super.",
+  "faqs": [
+    {
+      "q": "How do I convert my hourly rate to an annual salary?",
+      "a": "Multiply your hourly rate by the number of hours you work per week, then by 52 weeks. For full-time work in Australia, the standard assumption is 38 hours per week. For example, $30 per hour × 38 hours × 52 weeks = $59,280 per year. This is your gross annual salary before tax and super. Use the timesheet tool on this site to do the calculation automatically."
+    },
+    {
+      "q": "What is casual loading and how does it affect my pay?",
+      "a": "Casual loading is an additional 25% paid on top of the base hourly rate to compensate for the lack of paid leave entitlements. For example, if your base rate is $26.44, the casual rate becomes $33.05. Superannuation is then calculated on this higher casual rate. The timesheet tool has a checkbox to add casual loading – do not enter a rate that already includes it."
+    },
+    {
+      "q": "Is superannuation included in my hourly rate or paid on top?",
+      "a": "Superannuation is paid on top of your gross earnings, not deducted from your pay. The super guarantee is 12% of your ordinary earnings (including any casual loading). For example, if your annual gross is $60,000, your employer contributes an additional $7,200 to your super fund. This is separate from your take-home pay."
+    }
+  ],
+  "bodyMarkdown": "## Understanding the Hourly to Annual Conversion\n\nIf you've ever used a **UK take home pay calculator**, you'll recognise the basic formula: hourly rate × hours per week × weeks per year. In Australia, the standard full-time week is 38 hours, so the calculation becomes:\n\n**Annual gross = hourly rate × 38 × 52**\n\nThis gives you your gross salary before tax, Medicare, and super. For example, at the National Minimum Wage of $26.44 per hour (from 1 July 2026, as set by the Fair Work Commission), the annual gross is $26.44 × 38 × 52 = $52,254.80. Your fortnightly gross would be $1004.90 × 2 = $2009.80.\n\n### Distinguishing Pay Rates: National Minimum Wage vs Awards\n\nThe National Minimum Wage applies to employees not covered by an award or agreement. However, most workers are covered by an industry or occupation award, which sets higher minimum rates. For instance, the Social, Community, Home Care and Disability Services Industry Award (SCHADS Award) will see increases of up to 15% from 1 December 2026 for home care disability employees, as noted in the Fair Work Ombudsman pay guides. Always check the correct award for your role.\n\n### Casual Loading and Super Paid on Top\n\nCasual employees receive a 25% loading on their base rate to compensate for unpaid leave. For example, a base rate of $26.44 becomes $33.05 per hour. **Important:** Superannuation is calculated on the loaded rate. The super guarantee is 12% of ordinary earnings, paid on top of your gross pay. So if your casual annual gross is $33.05 × 38 × 52 = $65,306.80, your employer contributes an additional $7,836.82 to your super fund (up to the $270,830 maximum contribution base).\n\n### Tax and Medicare Estimates\n\nFor the 2026–27 financial year, the resident tax rates are:\n\n- $0 – $18,200: nil\n- $18,201 – $45,000: 15% on excess over $18,200\n- $45,001 – $135,000: 30% on excess over $45,000\n- $135,001 – $190,000: 37% on excess over $135,000\n- $190,001+: 45% on excess over $190,000\n\nMedicare levy is generally 2% of taxable income (using the 2025–26 single reduction thresholds as per our disclaimer). Using the National Minimum Wage example: tax on $52,254.80 is approximately $6,196.44, Medicare is $1,045.10, leaving a net annual of $45,013.26. Fortnightly net is about $1,731.28.\n\n### Using the Timesheet Tool\n\nOur [timesheet](/) tool lets you enter your base hourly rate and optionally check the box to add 25% casual loading. It calculates your annual, fortnightly, and weekly gross, along with estimated tax, Medicare, and super. For more details on casual loading, visit our [casual loading](/topics/casual-loading) page. You can also explore [minimum wage](/topics/minimum-wage) and [take-home pay](/topics/take-home) topics.\n\n### Important Notes\n\nThis conversion assumes you work the same rate every week, with no unpaid overtime, penalty rates, allowances, or salary sacrifice. Super is estimated at 12% of ordinary earnings, paid on top, and stops at the $270,830 maximum contribution base. Tax uses the 2026–27 resident scale with the full tax-free threshold, and Medicare uses the 2025–26 single reduction thresholds (as the 2026–27 thresholds were not confirmed). HELP repayments, Medicare levy surcharge, and salary packaging are not deducted. This is an estimate, not a determination of your pay or tax. For personalised calculations, use the timesheet tool and consult a professional.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "named-or-off-market"
+}

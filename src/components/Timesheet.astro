@@ -1,0 +1,303 @@
+---
+import salary from "../../data/salary-index.json";
+import { aud, hoursLabel, quote } from "../lib/pay";
+
+interface Props {
+  hourly?: number;
+  hours?: number;
+  casual?: boolean;
+  note?: string;
+  compact?: boolean;
+  syncUrl?: boolean;
+}
+
+const {
+  hourly = salary.minimumWage.adultHourly,
+  hours = 38,
+  casual = false,
+  note = "Ordinary hours are spread over five days. Extra hours above 38 are paid here at the same rate, with no penalty, and are left out of super.",
+  compact = false,
+  syncUrl = false,
+} = Astro.props;
+
+const initial = quote(hourly, hours, casual);
+const bands = salary.hourBands.map((band) => {
+  const row = quote(hourly, band, casual);
+  return { hours: band, annual: row.annualGross };
+});
+const maxAnnual = Math.max(...bands.map((band) => band.annual), 1);
+const compare =
+  initial.comparedWithMinimum < 0.98
+    ? `Below the adult ${casual ? "casual " : ""}floor of ${aud(initial.minimumHourly)}.`
+    : initial.comparedWithMinimum <= 1.02
+      ? `Level with the adult ${casual ? "casual " : ""}National Minimum Wage.`
+      : `${initial.comparedWithMinimum.toFixed(2)}× the adult ${casual ? "casual " : ""}National Minimum Wage.`;
+---
+
+<section class:list={["tool", { "is-compact": compact }]} data-timesheet data-sync={syncUrl ? "1" : "0"}>
+  <div class="sheet">
+    <div class="sheet-head">
+      <div>
+        {
+          compact ? (
+            <h2>Try the rate on a timesheet</h2>
+          ) : (
+            <>
+              <p class="kicker">38-hour ordinary week</p>
+              <h1>Turn an hourly rate into the year.</h1>
+              <p class="lede">
+                Type a rate. The week fills in, then the fortnight, tax, and super paid on top.
+              </p>
+            </>
+          )
+        }
+        <form class="sheet-form" data-form>
+          <fieldset>
+            <legend>{compact ? "Adjust the timesheet" : "Fill in the week"}</legend>
+            <div style="display:flex;flex-wrap:wrap;gap:0.9rem 1.25rem;align-items:end">
+              <div class="field">
+                <label for="hourly-rate">Hourly rate</label>
+                <input
+                  id="hourly-rate"
+                  name="hourly"
+                  type="text"
+                  inputmode="decimal"
+                  autocomplete="off"
+                  enterkeyhint="done"
+                  spellcheck="false"
+                  value={hourly.toFixed(2)}
+                  data-hourly
+                />
+              </div>
+              <div class="field">
+                <label for="weekly-hours">Hours each week</label>
+                <input
+                  id="weekly-hours"
+                  name="hours"
+                  type="text"
+                  inputmode="decimal"
+                  autocomplete="off"
+                  enterkeyhint="done"
+                  value={String(hours)}
+                  data-hours
+                />
+              </div>
+              <label class="check">
+                <input type="checkbox" name="casual" data-casual checked={casual} />
+                Add 25% casual loading
+              </label>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <p class="stamp">
+        <span class="stamp-label">Year, gross</span>
+        <span class="stamp-value" data-out="annual">{aud(initial.annualGross)}</span>
+        <span class="stamp-caption">52 weeks at this rate</span>
+      </p>
+    </div>
+    <p class="note" data-note>{note}</p>
+    <p class="note" data-compare>{compare}</p>
+    <div class="days" data-days>
+      {
+        initial.days.map((day) => (
+          <div class:list={["day", { "is-extra": day.extra }]} data-day={day.label} hidden={day.extra && day.hours <= 0}>
+            <span class="day-name">{day.label}</span>
+            <span class="day-pay" data-pay>
+              {aud(day.pay)}
+            </span>
+            <span class="day-hours" data-hours-label>
+              {hoursLabel(day.hours)} h
+            </span>
+          </div>
+        ))
+      }
+    </div>
+    <div class="ruler" data-ruler>
+      <div class="ruler-label">
+        <span>One fortnight</span>
+        <span data-out="fortnight-label">{aud(initial.fortnightGross)} gross</span>
+      </div>
+      <ul class="legend">
+        <li><i style="--swatch: var(--harbour)"></i> Take-home</li>
+        <li><i style="--swatch: var(--stamp)"></i> Tax</li>
+        <li><i style="--swatch: #8a6420"></i> Medicare</li>
+      </ul>
+      <div class="ruler-track" aria-hidden="true">
+        <div class="ruler-seg seg-home" data-seg="home" style={`flex:${Math.max(initial.fortnightTakeHome, 0)} 1 0`}>
+          <span>Take-home</span>
+        </div>
+        <div class="ruler-seg seg-tax" data-seg="tax" style={`flex:${Math.max(initial.fortnightTax, 0)} 1 0`}>
+          <span>Tax</span>
+        </div>
+        <div class="ruler-seg seg-med" data-seg="med" style={`flex:${Math.max(initial.fortnightMedicare, 0)} 1 0`} hidden={initial.fortnightMedicare <= 0}>
+          <span>Medicare</span>
+        </div>
+      </div>
+      <div class="super-row">
+        <span>Super 12%, paid on top</span>
+        <span data-out="super">{aud(initial.superAnnual)} a year</span>
+      </div>
+    </div>
+    <dl class="totals">
+      <div>
+        <dt>Week</dt>
+        <dd data-out="week">{aud(initial.weeklyGross)}</dd>
+      </div>
+      <div>
+        <dt>Fortnight</dt>
+        <dd data-out="fortnight">{aud(initial.fortnightGross)}</dd>
+      </div>
+      <div>
+        <dt>Take-home a year</dt>
+        <dd data-out="home">{aud(initial.takeHome)}</dd>
+      </div>
+      <div>
+        <dt>Tax + Medicare</dt>
+        <dd data-out="tax">{aud(initial.tax + initial.medicare)}</dd>
+      </div>
+    </dl>
+    <p class="visually-hidden" aria-live="polite" data-live>
+      {aud(initial.annualGross)} gross a year, {aud(initial.fortnightGross)} a fortnight.
+    </p>
+    <ul class="bands" data-bands>
+      {
+        bands.map((band) => (
+          <li class:list={{ "is-current": band.hours === 38 }}>
+            <span>{hoursLabel(band.hours)} h</span>
+            <span class="bar" aria-hidden="true">
+              <i style={`width:${Math.round((band.annual / maxAnnual) * 100)}%`} />
+            </span>
+            <span class="num">{aud(band.annual, 0)}</span>
+          </li>
+        ))
+      }
+    </ul>
+    <p class="fine">
+      Resident tax for 2026–27 with the tax-free threshold. Medicare uses the 2025–26 single
+      reduction thresholds. No HELP, no salary sacrifice, no Medicare levy surcharge. Super is 12%
+      of ordinary earnings only, capped at the maximum contribution base.
+    </p>
+  </div>
+</section>
+
+<script>
+  import { aud, hoursLabel, quote } from "../lib/pay";
+
+  const bands = [16, 20, 24, 30, 38, 40];
+
+  function parseNum(raw: string): number {
+    const n = Number(String(raw).replace(/[^0-9.]/g, ""));
+    return Number.isFinite(n) ? n : NaN;
+  }
+
+  function paint(root: HTMLElement, sync = false) {
+    const hourlyInput = root.querySelector<HTMLInputElement>("[data-hourly]");
+    const hoursInput = root.querySelector<HTMLInputElement>("[data-hours]");
+    const casualInput = root.querySelector<HTMLInputElement>("[data-casual]");
+    if (!hourlyInput || !hoursInput || !casualInput) return;
+
+    const hourly = parseNum(hourlyInput.value);
+    const hours = parseNum(hoursInput.value);
+    const casual = casualInput.checked;
+    const valid = hourly > 0 && hourly <= 10000 && hours > 0 && hours <= 80;
+    hourlyInput.setAttribute("aria-invalid", hourly > 0 && hourly <= 10000 ? "false" : "true");
+    hoursInput.setAttribute("aria-invalid", hours > 0 && hours <= 80 ? "false" : "true");
+    const live = root.querySelector("[data-live]");
+    if (!valid) {
+      if (live) live.textContent = "Enter an hourly rate and the hours worked each week.";
+      return;
+    }
+
+    const q = quote(hourly, hours, casual);
+    const set = (name: string, value: string) => {
+      const node = root.querySelector(`[data-out="${name}"]`);
+      if (node) node.textContent = value;
+    };
+    set("annual", aud(q.annualGross));
+    set("week", aud(q.weeklyGross));
+    set("fortnight", aud(q.fortnightGross));
+    set("fortnight-label", `${aud(q.fortnightGross)} gross`);
+    set("home", aud(q.takeHome));
+    set("tax", aud(q.tax + q.medicare));
+    set("super", `${aud(q.superAnnual)} a year`);
+
+    root.querySelectorAll<HTMLElement>("[data-day]").forEach((day) => {
+      const label = day.dataset.day;
+      const cell = q.days.find((item) => item.label === label);
+      if (!cell) return;
+      const pay = day.querySelector("[data-pay]");
+      const hrs = day.querySelector("[data-hours-label]");
+      if (pay) pay.textContent = aud(cell.pay);
+      if (hrs) hrs.textContent = `${hoursLabel(cell.hours)} h`;
+      day.hidden = cell.extra && cell.hours <= 0;
+    });
+
+    const home = root.querySelector<HTMLElement>('[data-seg="home"]');
+    const tax = root.querySelector<HTMLElement>('[data-seg="tax"]');
+    const med = root.querySelector<HTMLElement>('[data-seg="med"]');
+    if (home) home.style.flex = `${Math.max(q.fortnightTakeHome, 0)} 1 0`;
+    if (tax) tax.style.flex = `${Math.max(q.fortnightTax, 0)} 1 0`;
+    if (med) {
+      med.style.flex = `${Math.max(q.fortnightMedicare, 0)} 1 0`;
+      med.hidden = q.fortnightMedicare <= 0;
+    }
+
+    const compare = root.querySelector("[data-compare]");
+    if (compare) {
+      const floor = casual ? "casual " : "";
+      if (q.comparedWithMinimum < 0.98) {
+        compare.textContent = `Below the adult ${floor}floor of ${aud(q.minimumHourly)}.`;
+      } else if (q.comparedWithMinimum <= 1.02) {
+        compare.textContent = `Level with the adult ${floor}National Minimum Wage.`;
+      } else {
+        compare.textContent = `${q.comparedWithMinimum.toFixed(2)}× the adult ${floor}National Minimum Wage.`;
+      }
+    }
+
+    const rows = [...root.querySelectorAll<HTMLElement>("[data-bands] li")];
+    const amounts = bands.map((band) => quote(hourly, band, casual).annualGross);
+    const max = Math.max(...amounts, 1);
+    rows.forEach((row, index) => {
+      const annual = amounts[index];
+      if (annual == null) return;
+      const bar = row.querySelector("i");
+      const num = row.querySelector(".num");
+      if (bar) bar.style.width = `${Math.round((annual / max) * 100)}%`;
+      if (num) num.textContent = aud(annual, 0);
+      row.classList.toggle("is-current", Math.abs(bands[index]! - hours) < 0.01);
+    });
+
+    if (live) {
+      live.textContent = `${aud(q.annualGross)} gross a year, ${aud(q.takeHome)} after tax and Medicare, ${aud(q.fortnightGross)} a fortnight.`;
+    }
+
+    if (sync && root.dataset.sync === "1") {
+      const params = new URLSearchParams();
+      params.set("rate", String(Math.round(hourly * 100) / 100));
+      params.set("hours", String(Math.round(hours * 100) / 100));
+      if (casual) params.set("casual", "1");
+      const next = `${location.pathname}?${params.toString()}`;
+      if (next !== `${location.pathname}${location.search}`) {
+        history.replaceState(null, "", next);
+      }
+    }
+  }
+
+  function boot(root: HTMLElement) {
+    if (root.dataset.sync === "1") {
+      const params = new URLSearchParams(location.search);
+      const hourlyInput = root.querySelector<HTMLInputElement>("[data-hourly]");
+      const hoursInput = root.querySelector<HTMLInputElement>("[data-hours]");
+      const casualInput = root.querySelector<HTMLInputElement>("[data-casual]");
+      if (params.has("rate") && hourlyInput) hourlyInput.value = params.get("rate") || hourlyInput.value;
+      if (params.has("hours") && hoursInput) hoursInput.value = params.get("hours") || hoursInput.value;
+      if (casualInput && params.get("casual") === "1") casualInput.checked = true;
+    }
+    const form = root.querySelector("[data-form]");
+    form?.addEventListener("input", () => paint(root, true));
+    paint(root, false);
+  }
+
+  document.querySelectorAll<HTMLElement>("[data-timesheet]").forEach(boot);
+</script>

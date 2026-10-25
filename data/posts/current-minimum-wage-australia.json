@@ -1,0 +1,27 @@
+{
+  "id": 472,
+  "slug": "current-minimum-wage-australia",
+  "keyword": "current minimum wage australia",
+  "title": "Understanding the Current Minimum Wage Australia: Hourly, Weekly, and Annual Pay in 2026-27",
+  "description": "Learn how the current minimum wage australia of $26.44 per hour translates to weekly and annual pay. Compare award rates, casual loading, tax, and super for a 38-hour week.",
+  "salarySummary": "At the current minimum wage australia of $26.44 per hour, a full-time worker on a 38-hour week earns about $1,004.90 per week, $52,254.80 annually before tax, plus super.",
+  "faqs": [
+    {
+      "q": "What is the current minimum wage australia for 2026-27?",
+      "a": "The National Minimum Wage from 1 July 2026 is $26.44 per hour, or $1,004.90 per week for a 38-hour week. Casual employees receive $33.05 per hour including the 25% casual loading."
+    },
+    {
+      "q": "How do I convert my hourly rate to annual salary?",
+      "a": "Multiply your hourly rate by the number of hours you work per week, then by 52. For a standard full-time worker, we assume 38 hours per week. For example, $26.44 × 38 × 52 = $52,254.80."
+    },
+    {
+      "q": "Is the National Minimum Wage the same as award rates?",
+      "a": "No. The National Minimum Wage is the legal floor. Many employees are covered by industry or occupation awards that set higher minimum rates. Check your award on the Fair Work Ombudsman website."
+    }
+  ],
+  "bodyMarkdown": "## The Current Minimum Wage Australia: The National Minimum Wage\n\nThe **current minimum wage australia** for the 2026-27 financial year is set by the Fair Work Commission at $26.44 per hour. This is the legal minimum pay for most employees not covered by an award or agreement. For a full-time employee working 38 hours per week, that equals $1,004.90 per week. Casual employees receive a 25% loading on top, making it $33.05 per hour, including the casual loading. This is the base rate before any award or agreement.\n\n## How to Calculate Annual Pay from Your Hourly Rate\n\nThe standard formula for converting an hourly rate to annual pay is simple: **hourly × hours per week × 52. For a full-time worker we assume 38 hours per week. For example, the current minimum wage: $26.44 × 38 × 52 = $52,254.80 per year. That is the gross annual pay before tax and super. The fortnight pay is weekly × 2: $2,009.80 per fortnight. Use [the timesheet](/) to convert any hourly rate. Never type a rate that already includes casual loading; the timesheet has a checkbox to add 25% casual loading on top.\n\n### Using the Timesheet for Your Own Rate\n\nIf you have a different hourly rate, use the timesheet to see your weekly, fortnightly, and annual figures. The timesheet assumes 38 hours per week for full-time, but you can adjust hours if needed. The calculator also shows tax and super estimates based on the current minimum wage australia and your rate.\n\n## National Minimum Wage vs. Award Rates\n\nThe National Minimum Wage is the legal floor, but many employees are covered by industry or occupation awards that set higher minimum rates. For example, the ABS Average Weekly Earnings for full-time adult ordinary time is $2,083.7 per week (May 2026). This is an average, not a median for a specific job. Award rates vary by industry, such as retail, hospitality, etc. The Fair Work Ombudsman provides pay guides for each award. Check your award on the [minimum wage](/topics/minimum-wage) and [job pay](/topics/job-pay) for your industry.\n\n## Casual Loading and Super\n\nCasual employees get 25% loading on top of the base rate. The current minimum wage australia casual rate is $33.05 per hour. Super guarantee is 12% of ordinary earnings, paid on top, up to the maximum contribution base of $270,830. For a full-time worker at the minimum wage, super is about $6,270.58 per year. Use the [casual loading](/topics/casual-loading) page for more details.\n\n## Tax and Take-Home Pay\n\nTax for 2026-27 resident: nil to $18,200; 15% to $45,000; 30% to $135,000; 37% to $190,000; 45% above. Medicare levy generally 2%. For a full-time minimum wage worker, annual gross $52,254.80, tax about $5,138.22, Medicare $1,045.10, leaving take-home $46,071.48. This is an estimate; see [take-home pay](/topics/take-home) for more.\n\n## Important Notes\n\nAnnual pay here is hourly rate × hours per week × 52. It assumes same rate every week, no unpaid overtime, no penalty rates, no allowances, and no salary sacrifice. Super is estimated at 12% of ordinary earnings only, paid on top, stops at $270,830. Tax is 2026-27 resident scale with full tax-free threshold. Medicare uses 2025-26 single reduction thresholds because 2026-27 not confirmed here. HELP, Medicare levy surcharge, salary packaging not deducted. This is an estimate, not a determination of your pay or tax. See [reference tables](/data) for more figures.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": false,
+  "webSearchReason": "local-salary-db"
+}

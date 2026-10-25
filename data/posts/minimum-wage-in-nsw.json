@@ -1,0 +1,27 @@
+{
+  "id": 1186,
+  "slug": "minimum-wage-in-nsw",
+  "keyword": "minimum wage in nsw",
+  "title": "Understanding the Minimum Wage in NSW: From Hourly Rate to Annual Salary and Fortnightly Pay",
+  "description": "Learn how to convert the minimum wage in NSW to annual, fortnightly, and weekly pay. Includes tax, super, and casual loading for a 38-hour week.",
+  "salarySummary": "For a 38-hour week, the national minimum wage of $26.44 per hour gives an annual gross of about $52,270, before tax and super.",
+  "faqs": [
+    {
+      "q": "What is the minimum wage in NSW?",
+      "a": "The national minimum wage applies in NSW. From 1 July 2026 it is $26.44 per hour for a 38-hour week, giving $1,004.90 per week. Casual workers receive $33.05 per hour including 25% loading."
+    },
+    {
+      "q": "How do I calculate annual salary from an hourly rate?",
+      "a": "Multiply your hourly rate by hours per week (usually 38) then by 52 weeks. For the minimum wage in NSW: $26.44 × 38 × 52 = $52,269.44 per year."
+    },
+    {
+      "q": "Does the minimum wage include superannuation?",
+      "a": "No, super is paid on top at 12% of ordinary earnings. For the minimum wage in NSW, super adds about $6,272 per year, up to the $270,830 contribution base."
+    }
+  ],
+  "bodyMarkdown": "## Converting Hourly Pay to Annual Salary for a 38-Hour Week\n\nIf you earn an hourly wage, understanding your annual salary is straightforward: multiply your hourly rate by the number of hours you work each week, then by 52 weeks. For full-time employees, the standard is 38 hours per week, as set by the Fair Work Commission. This article uses that assumption unless stated otherwise.\n\n### The Minimum Wage in NSW\n\nThe **minimum wage in NSW** is the national minimum wage determined by the Fair Work Commission. From 1 July 2026, it is $26.44 per hour. For a 38-hour week, that equates to $1,004.90 per week. Over 52 weeks, the annual gross pay is approximately $52,270. This is before tax and superannuation.\n\nRemember, the national minimum wage applies to employees not covered by an award or agreement. Many industries have higher award rates. Check your [pay guides](/blog) for specific rates.\n\n### Fortnightly Pay\n\nMany employers pay fortnightly. To find your fortnightly gross, multiply your weekly pay by two. For the minimum wage in NSW, that is $2,009.80 per fortnight. This can help with budgeting.\n\n### Casual Loading\n\nCasual employees receive a 25% loading on top of the base rate. For the minimum wage, that is $33.05 per hour. When using [the timesheet](/), you can check the \"casual loading\" box to add 25% to the base rate you enter. Do not enter a rate that already includes casual loading.\n\n### Tax and Super\n\nYour take-home pay depends on tax and the Medicare levy. For 2026–27, the resident tax rates are: nil up to $18,200, 15% from $18,201 to $45,000, 30% to $135,000, 37% to $190,000, and 45% above that. Medicare is generally 2% (using 2025–26 single reduction thresholds as 2026–27 thresholds are not confirmed). Superannuation is paid on top at 12% of ordinary earnings, up to the maximum contribution base of $270,830.\n\nFor the minimum wage in NSW, annual super is about $6,272 (12% of $52,270). This is not deducted from your pay; it goes into your super fund.\n\n### Average Earnings in NSW\n\nFor context, the Australian Bureau of Statistics reports that full-time adult ordinary time earnings in New South Wales averaged $2,108.80 per week in May 2026. That is an average, not a median for any specific job. Your pay may differ.\n\n### Using the Calculator\n\nOur [hourly conversion](/topics/hourly-conversion) tool helps you see annual, fortnightly, and weekly figures. Remember the assumptions: no unpaid overtime, no penalty rates, no allowances, and no salary sacrifice. The estimate is a guide.\n\n[Reference tables](/data) provide more detail on tax brackets and super caps.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": false,
+  "webSearchReason": "local-salary-db"
+}

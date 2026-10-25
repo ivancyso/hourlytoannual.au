@@ -1,0 +1,27 @@
+{
+  "id": 372,
+  "slug": "hr-manager-salary",
+  "keyword": "hr manager salary",
+  "title": "HR Manager Salary: Converting Hourly Rates to Annual Pay Under the National Minimum Wage and Awards",
+  "description": "Learn how to convert an hourly rate to annual salary for HR managers, including the 38-hour week, fortnightly pay, tax, and super. Uses Fair Work and ABS data.",
+  "salarySummary": "The median full-time HR manager salary is $2,768 per week based on a 45-hour week, but for standard conversion we assume 38 hours per week.",
+  "faqs": [
+    {
+      "q": "How is annual salary calculated from an hourly rate?",
+      "a": "Annual gross = hourly rate × hours per week × 52. For a 38-hour week, multiply hourly by 1976. For the national minimum wage ($26.44), that gives $52,285.60 per year before tax and super."
+    },
+    {
+      "q": "What is the national minimum wage from 1 July 2026?",
+      "a": "The National Minimum Wage is $26.44 per hour, $1,004.90 per week for a 38 hours, or $33.05 per hour for casual employees including 25% loading. Award rates increase by 4.75% from that date."
+    },
+    {
+      "q": "What is the median hr manager salary in Australia?",
+      "a": "According to the Australian Bureau of Statistics, the median full-time HR manager earns $2,768 per week ($75 per hour) based on a 45-hour week. For a standard 38-hour week, that would be approximately $2,338 per week or $121,000 per year."
+    }
+  ],
+  "bodyMarkdown": "## Understanding the National Minimum Wage vs. Award Rates\n\nThe Fair Work Ombudsman sets the National Minimum Wage from 1 July 2026 at $26.44 per hour or $1,004.90 per week for a 38-hour week. Most employees are covered by a modern award, which sets minimum pay rates for their industry or occupation. For example, the Human Resource Manager occupation falls under the *Business Equipment Award* or a similar award. Award minimum wages increase by 4.75% from 1 July 2026. The pay guides from the Fair Work Ombudsman list the exact rates for each classification.\n\n## Converting Hourly to Annual Pay\n\nTo convert an hourly rate to an annual salary, use the formula:\n\n**Annual gross ≈ hourly × hours per week × 52**\n\nWe assume a standard 38-hour week unless otherwise stated. For a full-time HR manager, the median weekly earnings are $2,768 per week, but that is based on a 45-hour week, tax would be approximately $37,000 plus Medicare, leaving around $103,000 after tax.\n\n## Using the Timesheet and Other Tools\n\nOur [the timesheet](/) lets you enter your base hourly rate and optionally add 25% casual loading. It calculates annual, fortnightly, and weekly amounts with super and tax. For more detailed award rates, see [pay guides](/blog) or [reference tables](/data). For minimum wage topics, see [minimum wage](/).\n\n## Conclusion\n\nWhether you are an HR manager checking your salary or an employer setting a salary, understanding the conversion and the difference between the National Minimum Wage, award rates, casual loading, and super is essential. The median HR manager salary is $2,768 per week for a 45-hour week, but for standard conversion we assume 38 hours. Always check the relevant award or enterprise agreement for your exact rate.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

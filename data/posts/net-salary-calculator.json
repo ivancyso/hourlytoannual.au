@@ -1,0 +1,27 @@
+{
+  "id": 209,
+  "slug": "net-salary-calculator",
+  "keyword": "net salary calculator",
+  "title": "Net Salary Calculator: Convert Your Hourly Rate to Annual Pay with Casual Loading and Super",
+  "description": "Use our net salary calculator to turn your hourly rate into annual, fortnightly and weekly pay. Includes casual loading, super on top and 2026–27 tax.",
+  "salarySummary": "For a 38‑hour week, your annual gross pay is your hourly rate multiplied by 38 then by 52, with casual loading and super added on top.",
+  "faqs": [
+    {
+      "q": "How do I calculate my annual salary from an hourly rate?",
+      "a": "Multiply your hourly rate by the number of hours you work each week, then by 52 weeks. For a standard full‑time week of 38 hours, the formula is: hourly rate × 38 × 52. This gives your annual gross pay before tax and super. If you are a casual employee, add 25% casual loading to your base rate before doing the calculation. Superannuation is then paid on top of your ordinary earnings at 12%."
+    },
+    {
+      "q": "What is casual loading and how does it affect my pay?",
+      "a": "Casual loading is an extra 25% paid on top of the base hourly rate to compensate casual employees for not receiving paid leave or other entitlements. The National Minimum Wage for casuals from 1 July 2026 is $33.05 per hour (base $26.44 plus 25% loading). When using a net salary calculator, you should enter your base rate and let the calculator add the loading – never enter a rate that already includes casual loading."
+    },
+    {
+      "q": "Is superannuation included in my hourly rate or paid on top?",
+      "a": "Super is paid on top of your ordinary earnings. The Super Guarantee is 12% of your gross pay (up to the maximum contribution base of $270,830 per year). For example, if your annual ordinary earnings are $50,000, your employer must contribute an extra $6,000 to your super fund. This is not deducted from your take‑home pay."
+    }
+  ],
+  "bodyMarkdown": "## How to Use a Net Salary Calculator for Australian Pay\n\nA **net salary calculator** helps you see what your hourly rate means as annual, fortnightly or weekly pay – and what you’ll take home after tax and Medicare. This guide explains the maths, the rules for casual loading, and how super is paid on top.\n\n### The Basic Formula: Hourly × Hours × 52\n\nAnnual gross pay = hourly rate × hours per week × 52 weeks. For a standard full‑time week of 38 hours, that’s:\n\n**Annual gross = hourly rate × 38 × 52**\n\nThis assumes you work the same number of hours every week, with no unpaid overtime, penalty rates, allowances or salary sacrifice. It’s a starting point for comparing offers or checking your own pay.\n\nIf you work a different number of hours each week (e.g., part‑time or casual shifts), use your average weekly hours. The [the timesheet](/",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": false,
+  "webSearchReason": "local-salary-db"
+}

@@ -1,0 +1,27 @@
+{
+  "id": 365,
+  "slug": "australian-minimum-wage-2025",
+  "keyword": "australian minimum wage 2025",
+  "title": "Convert Your Hourly Rate to Annual Salary: Australian Minimum Wage 2025 and Beyond",
+  "description": "Understand how to convert hourly pay to annual salary using 38-hour weeks. Includes australian minimum wage 2025 context, tax brackets, superannuation, and fortnightly pay.",
+  "salarySummary": "For a full-time employee working 38 hours per week, annual gross pay is your hourly rate multiplied by 1,976 hours (38 × 52).",
+  "faqs": [
+    {
+      "q": "What is the australian minimum wage 2025?",
+      "a": "The Fair Work Commission reviews the National Minimum Wage annually. The rate from 1 July 2026 is $26.44 per hour ($1,004.90 per week for 38 hours). The 2025 rate was the previous year's figure; check the Fair Work Ombudsman for historical rates."
+    },
+    {
+      "q": "How do I calculate my annual salary from my hourly rate?",
+      "a": "Multiply your hourly rate by your weekly hours, then by 52. For a standard 38-hour week, use 1,976 hours per year. For a fortnightly comparison, double your weekly pay."
+    },
+    {
+      "q": "Does superannuation count as part of my salary?",
+      "a": "No, super guarantee (currently 12%) is paid on top of your ordinary earnings, up to the maximum contribution base ($270,830). It is not part of your take-home pay."
+    }
+  ],
+  "bodyMarkdown": "## From Hourly to Annual: The Simple Formula\n\nUnderstanding how your hourly wage translates to an annual salary is essential whether you are negotiating a job offer, budgeting, or comparing pay rates. The **australian minimum wage 2025** is a common reference point, but the current National Minimum Wage from 1 July 2026 is $26.44 per hour for a 38-hour week. This article explains the conversion formula, tax implications, superannuation, and the difference between award rates and the minimum wage.\n\n### The Basic Calculation\n\nAnnual gross pay = hourly rate × hours per week × 52. This assumes you work the same number of hours every week, with no unpaid overtime, penalty rates, allowances, or salary sacrifice. For a standard full-time week of 38 hours, the multiplier is 1,976 hours per year. If your hours differ, adjust accordingly. For example, a 20-hour week gives 1,040 hours per year.\n\n### Fortnightly Pay\n\nMany employers pay fortnightly. Your fortnightly gross is simply weekly pay × 2. For a 38-hour week at $26.44 per hour, weekly is $1,004.90 and fortnightly is $2,009.80. This helps when budgeting for bills that come every two weeks.\n\n## National Minimum Wage vs Award Rates vs Casual Loading\n\nThe National Minimum Wage set by the Fair Work Commission applies to employees not covered by an award or enterprise agreement. Most employees are covered by modern awards that often have higher rates. Those rates are industry or state averages, not a job median. The [pay guides](/blog) and [reference tables](/data) on this site show award-specific figures.\n\n### Casual Loading\n\nCasual employees receive a 25% loading on top of their base hourly rate to compensate for no paid leave. When using [the timesheet](/), you enter your base hourly rate and check the casual loading box to add the 25% on top. Do not enter a rate that already includes loading.\n\n## Average Earnings Context\n\nThe Australian Bureau of Statistics reports average weekly earnings. For May 2026, full-time adult ordinary time earnings were $2,083.70 per week. All employees total earnings (including part-time) averaged $1,579.20 per week. These are averages, not medians for a specific job. Use [average pay](/topics/average-pay) for more context.\n\n## Tax and Superannuation\n\n### Income Tax 2026–27\n\nThe Australian Taxation Office resident tax scale for 2026–27 is:\n- Nil on the first $18,200\n- 15% on income from $18,201 to $45,000\n- 30% on income from $45,001 to $135,000\n- 37% on income from $135,001 to $190,000\n- 45% on income above $190,000\n\nMedicare levy generally 2% on taxable income above the tax-free threshold. The 2025–26 single reduction thresholds are used because the 2026–27 reduction thresholds were not confirmed here.\n\n### Super Guarantee\n\nSuperannuation is paid on top of your ordinary earnings at 12% of your gross pay, up to the maximum contribution base of $270,830 per year. For example, on $26.44 per hour for 38 hours, super is $3.17 per hour extra. Super is not deducted from your pay; it is an additional cost to the employer.\n\n## Important Disclaimer\n\nThis estimate is an estimate, not a determination of your pay or tax. It assumes consistent hours, no overtime, no penalty rates, no allowances, no salary sacrifice. Super is estimated at 12% of ordinary earnings only, paid on top, and stops at the $270,830 maximum contribution base. Tax uses the 2026–27 resident scale with the full tax-free threshold. Medicare uses the 2025–26 single reduction thresholds because the 2026–27 reduction thresholds were not confirmed here. HELP, the Medicare levy surcharge, and salary packaging are not deducted.\n\nFor more detailed calculations, use [the timesheet](/). For award-specific rates, see [pay guides](/blog). For tax tables, refer to the Australian Taxation Office.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": false,
+  "webSearchReason": "local-salary-db"
+}

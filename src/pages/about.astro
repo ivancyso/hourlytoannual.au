@@ -1,0 +1,40 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="About this timesheet"
+  description="How Hourly to annual converts an Australian hourly rate into a year, a fortnight, tax, and super."
+>
+  <section class="section">
+    <p class="kicker">About</p>
+    <h1>One job: the 38-hour year</h1>
+    <p class="lede">
+      People in Australia are often quoted an hourly rate, then paid a fortnight, then asked to
+      compare that with a salary. This site does that conversion and shows the tax and super around it.
+    </p>
+    <h2>What the timesheet assumes</h2>
+    <ul>
+      <li>Ordinary hours stop at 38. Extra hours are shown separately and, here, earn the same rate with no penalty.</li>
+      <li>The year is 52 weeks. A fortnight is two of those weeks.</li>
+      <li>Casual loading, when you tick it, is 25% on the rate you typed.</li>
+      <li>Super is 12% of ordinary earnings only, paid on top, and capped at the maximum contribution base.</li>
+      <li>Tax is the 2026–27 resident scale with the full tax-free threshold.</li>
+      <li>The Medicare estimate uses the 2025–26 single reduction thresholds.</li>
+    </ul>
+    <h2>What it leaves out</h2>
+    <p>
+      Awards, penalty rates, allowances, overtime rules, salary sacrifice, HELP, the Medicare levy
+      surcharge, and junior or apprentice scales other than the award-free National Minimum Wage.
+      If an award covers the job, the award rate wins.
+    </p>
+    <h2>Where the reference figures come from</h2>
+    <p>
+      The Fair Work Commission and the Fair Work Ombudsman for the National Minimum Wage from 1 July
+      2026. The Australian Bureau of Statistics Average Weekly Earnings release for May 2026. The
+      Australian Taxation Office for resident rates in 2026–27 and the super guarantee. Guides name
+      those organisations when they rely on them.
+    </p>
+    <p><a href="/data">Open the reference tables</a> or <a href="/">return to the timesheet</a>.</p>
+  </section>
+</BaseLayout>

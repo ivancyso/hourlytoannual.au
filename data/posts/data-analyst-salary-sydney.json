@@ -1,0 +1,27 @@
+{
+  "id": 1281,
+  "slug": "data-analyst-salary-sydney",
+  "keyword": "data analyst salary sydney",
+  "title": "Data Analyst Salary Sydney: Converting Hourly Rates to Annual Pay with a 38-Hour Week",
+  "description": "Learn how to convert a data analyst salary sydney hourly rate to annual, fortnightly, and weekly pay using the 38-hour week, tax, and super rules from Fair Work and ATO.",
+  "salarySummary": "For a data analyst in Sydney, the annual gross pay is hourly rate × 38 hours × 52 weeks, with super paid on top at 12%.",
+  "faqs": [
+    {
+      "q": "What is a typical data analyst salary sydney?",
+      "a": "There is no single figure, but the ABS Average Weekly Earnings for full-time adult ordinary time was $2,083.70 per week in May 2026, which equates to about $108,352 per year. Many data analyst roles fall in a range around that, depending on experience and industry. Check job ads and the [average pay](/topics/average-pay) page for more context."
+    },
+    {
+      "q": "How do I convert my hourly rate to an annual salary?",
+      "a": "Multiply your hourly rate by your weekly hours, then by 52. For a standard full-time role, assume 38 hours per week. For example, $50 per hour × 38 × 52 = $98,800 per year. The [hourly conversion](/topics/hourly-conversion) page explains this in detail."
+    },
+    {
+      "q": "Does superannuation get paid on top of my salary?",
+      "a": "Yes. The super guarantee is 12% of your ordinary earnings, paid by your employer on top of your base salary. It does not reduce your take-home pay. The maximum contribution base for 2026–27 is $270,830. See [super and packaging](/topics/super-and-packaging) for more."
+    }
+  ],
+  "bodyMarkdown": "## Understanding the data analyst salary sydney landscape\n\nWhen you're looking at a data analyst salary sydney, you'll often see figures quoted as an hourly rate or an annual package. To compare offers or plan your budget, you need a reliable way to convert between the two. This guide uses the standard 38-hour week, the 52-week year, and the latest Fair Work and ATO figures to help you work out your gross annual pay, fortnightly pay, tax, and super.\n\n### The 38-hour week and the annual conversion\n\nThe basic formula is simple: annual gross pay = hourly rate × hours per week × 52. For a full-time employee, the standard week under most modern awards is 38 hours. So if you have an hourly rate of, say, $45, your annual gross pay would be $45 × 38 × 52 = $88,920. This assumes you work the same hours every week with no unpaid overtime, no penalty rates, and no allowances. Use [the timesheet](/) to enter your base hourly rate and see the annual figure instantly.\n\nIf you're a casual employee, your rate usually includes a 25% casual loading. On the timesheet, you can check a box to add that loading on top of the base rate. Never enter a rate that already includes casual loading – the tool handles it for you.\n\n### Fortnightly pay and tax considerations\n\nMany employers pay fortnightly. To get your gross fortnightly pay, multiply your weekly pay by 2. For the $45/hour example, weekly pay is $45 × 38 = $1,710, so fortnightly is $3,420. From that, you need to deduct tax and the Medicare levy.\n\nThe 2026–27 resident tax rates are: nil on the first $18,200, 15% on income up to $45,000, 30% up to $135,000, 37% up to $190,000, and 45% above that. The Medicare levy is generally 2% of your taxable income, with reductions for low-income earners. The [take-home pay](/topics/take-home) page can help you estimate your net pay after these deductions.\n\n### Minimum wage, award rates, and casual loading\n\nFrom 1 July 2026, the National Minimum Wage is $26.44 per hour, or $1,004.90 per week for 38 hours. Award minimum wages increased by 4.75% from that date. Many data analyst roles are covered by the Professional Employees Award or a similar award, which sets minimum rates above the national minimum. The Fair Work Ombudsman publishes [pay guides](/blog) for each award, and the Fair Work Commission's Modern Awards Pay Database contains the official rates.\n\nIf you're employed casually, you're entitled to a 25% loading on top of the award or minimum rate. That makes the casual minimum $33.05 per hour. The [casual loading](/topics/casual-loading) page explains how this works.\n\n### Superannuation on top\n\nYour employer must pay super guarantee contributions of 12% of your ordinary earnings, on top of your salary. This does not come out of your pay – it's an additional cost for the employer. For the $45/hour example, that's an extra $10,670.40 per year into your super fund, up to the maximum contribution base of $270,830. The [super and packaging](/topics/super-and-packaging) page has more details.\n\n### Using the timesheet tool\n\nOur [the timesheet](/) tool lets you enter your base hourly rate and see the annual, fortnightly, and weekly figures. You can toggle casual loading, and the tool estimates tax and super based on the 2026–27 rates. For a data analyst salary sydney, this gives you a clear picture of what your offer is really worth.\n\nRemember that the estimates here assume a consistent 38-hour week, no unpaid overtime, no penalty rates, and no salary sacrifice. Always check your specific award or agreement for exact entitlements. The [reference tables](/data) contain the official minimum rates from Fair Work.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

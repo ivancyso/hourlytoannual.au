@@ -1,0 +1,146 @@
+---
+import { marked } from "marked";
+import DOMPurify from "isomorphic-dompurify";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Timesheet from "../../components/Timesheet.astro";
+import { getAllPosts, getPostBySlug, relatedPosts } from "../../lib/posts";
+import { presetFromKeyword } from "../../lib/preset";
+import { stripExternalAnchors } from "../../lib/sanitize";
+import { primaryTopic, topicsForKeyword } from "../../lib/topics";
+
+export function getStaticPaths() {
+  return getAllPosts().map((post) => ({ params: { slug: post.slug } }));
+}
+
+const slug = Astro.params.slug ?? "";
+const post = getPostBySlug(slug);
+if (!post) throw new Error(`Missing guide: ${slug}`);
+
+const preset = presetFromKeyword(post.keyword);
+const topic = primaryTopic(post.keyword);
+const also = topicsForKeyword(post.keyword);
+const related = relatedPosts(post, 4);
+const headings = [...post.bodyMarkdown.matchAll(/^##\s+(.+)$/gm)].map((match, index) => ({
+  label: match[1]?.trim() ?? "",
+  id: `part-${index + 1}`,
+}));
+let headingIndex = 0;
+const raw = String(marked.parse(post.bodyMarkdown, { async: false })).replace(/<h2>/g, () => {
+  const item = headings[headingIndex];
+  headingIndex += 1;
+  return item ? `<h2 id="${item.id}">` : "<h2>";
+});
+const body = stripExternalAnchors(
+  DOMPurify.sanitize(raw, { USE_PROFILES: { html: true }, ADD_ATTR: ["id"] }),
+);
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    description: post.description,
+    inLanguage: "en-AU",
+    mainEntityOfPage: `https://hourlytoannual.au/blog/${post.slug}`,
+    author: { "@type": "Organization", name: "Hourly to annual", url: "https://hourlytoannual.au" },
+    publisher: { "@type": "Organization", name: "Hourly to annual", url: "https://hourlytoannual.au" },
+    keywords: post.keyword,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: post.faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.q,
+      acceptedAnswer: { "@type": "Answer", text: faq.a },
+    })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Timesheet", item: "https://hourlytoannual.au/" },
+      { "@type": "ListItem", position: 2, name: "Guides", item: "https://hourlytoannual.au/blog" },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: topic.name,
+        item: `https://hourlytoannual.au/topics/${topic.slug}`,
+      },
+      {
+        "@type": "ListItem",
+        position: 4,
+        name: post.title,
+        item: `https://hourlytoannual.au/blog/${post.slug}`,
+      },
+    ],
+  },
+];
+---
+
+<BaseLayout title={post.title} description={post.description} ogType="article" jsonLd={jsonLd}>
+  <article class="section">
+    <p class="crumbs">
+      <a href="/">Timesheet</a>
+      <span aria-hidden="true">/</span>
+      <a href="/blog">Guides</a>
+      <span aria-hidden="true">/</span>
+      <a href={`/topics/${topic.slug}`}>{topic.name}</a>
+    </p>
+    <h1>{post.title}</h1>
+    {post.salarySummary ? <p class="summary">{post.salarySummary}</p> : null}
+    {
+      headings.length > 1 && (
+        <nav aria-label="On this page">
+          <p class="kicker">On this page</p>
+          <ul>
+            {headings.map((item) => (
+              <li>
+                <a href={`#${item.id}`}>{item.label}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )
+    }
+    <div class="prose below-fold" set:html={body} />
+    <p class="fine">
+      Open the same rate on the <a href={`/?rate=${preset.hourly.toFixed(2)}&hours=${preset.hours}${preset.casual ? "&casual=1" : ""}`}>home timesheet</a>.
+      Read the <a href="/data">reference tables</a> before treating a figure as your pay.
+    </p>
+  </article>
+
+  <Timesheet
+    compact
+    hourly={preset.hourly}
+    hours={preset.hours}
+    casual={preset.casual}
+    note={preset.note}
+  />
+
+  {
+    post.faqs.length > 0 && (
+      <section class="section faqs">
+        <h2>Questions people ask next</h2>
+        {post.faqs.map((faq) => (
+          <details>
+            <summary>{faq.q}</summary>
+            <p>{faq.a}</p>
+          </details>
+        ))}
+      </section>
+    )
+  }
+
+  <section class="section below-fold">
+    <h2>Keep going</h2>
+    <div class="related">
+      {also.map((item) => (
+        <a href={`/topics/${item.slug}`}>{item.name}</a>
+      ))}
+      {related.map((item) => (
+        <a href={`/blog/${item.slug}`}>{item.title}</a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,27 @@
+{
+  "id": 872,
+  "slug": "patrick-dangerfield-salary",
+  "keyword": "patrick dangerfield salary",
+  "title": "From Hourly to Annual: How to Convert Your Pay, from Minimum Wage to Patrick Dangerfield Salary",
+  "description": "Learn how to convert hourly rates to annual salary using the standard 38-hour week. Includes minimum wage, casual loading, super, and tax—even for a Patrick Dangerfield salary.",
+  "salarySummary": "For a 38-hour week, annual pay is hourly rate × 38 × 52; the National Minimum Wage from 1 July 2026 is $26.44 per hour, or $1004.90 per week.",
+  "faqs": [
+    {
+      "q": "What is the National Minimum Wage from 1 July 2026?",
+      "a": "The National Minimum Wage is $26.44 per hour, or $1004.90 per week for a 38-hour week. Casual employees receive a 25% loading, making it $33.05 per hour. These rates are set by the Fair Work Commission and apply to award/agreement-free employees."
+    },
+    {
+      "q": "How is casual loading calculated?",
+      "a": "Casual loading is an additional 25% on top of the base hourly rate. For example, the National Minimum Wage of $26.44 becomes $33.05 per hour. This compensates for not receiving paid leave. Use our [casual loading](/topics/casual-loading) page for more details."
+    },
+    {
+      "q": "How does superannuation affect my total pay?",
+      "a": "Superannuation is paid on top of your ordinary earnings at 12% (from 1 July 2026). It does not reduce your take-home pay. The maximum contribution base is $270,830 per year. See [super and packaging](/topics/super-and-packaging) for full details."
+    }
+  ],
+  "bodyMarkdown": "## Understanding the Hourly to Annual Conversion\n\nConverting your hourly rate to an annual salary is straightforward: multiply your hourly rate by the number of hours you work each week, then by 52 weeks. This article assumes a standard 38-hour week, which is the benchmark used by the Fair Work Ombudsman and the Fair Work Commission. If you work part-time or irregular hours, adjust the weekly hours accordingly.\n\nThe formula is: **Annual gross pay ≈ hourly rate × hours per week × 52**.\n\nFor example, if you earn $30 per hour and work 38 hours each week, your annual salary is $30 × 38 × 52 = $59,280 before tax and super.\n\n## The National Minimum Wage and Award Rates\n\nFrom 1 July 2026, the National Minimum Wage is $26.44 per hour, or $1004.90 per week for a 38-hour week. This is the base rate for adult employees not covered by an award or agreement. Award minimum wages increased by 4.75% from the same date. You can check your specific award using our [pay guides](/blog) or the [minimum wage](/topics/minimum-wage) page.\n\n## Casual Loading\n\nIf you are a casual employee, you are entitled to a 25% loading on top of the base rate. For the National Minimum Wage, that means $33.05 per hour. This loading compensates for not receiving paid sick leave or annual leave. Never enter a rate that already includes casual loading into our calculator—use the base rate and tick the casual checkbox. Learn more on our [casual loading](/topics/casual-loading) page.\n\n## Superannuation\n\nEmployers must pay superannuation guarantee of 12% on your ordinary earnings, on top of your salary. This is not deducted from your pay. The maximum contribution base is $270,830 per year. For a full-time worker on the minimum wage, super adds about $120.59 per week. See [super and packaging](/topics/super-and-packaging) for details.\n\n## Tax and Medicare\n\nYour annual gross pay is subject to Australian resident tax and the Medicare levy. For 2026–27, the tax-free threshold is $18,200. The rates are:\n- $18,201–$45,000: 15%\n- $45,001–$135,000: 30%\n- $135,001–$190,000: 37%\n- Over $190,000: 45%\n\nPlus a Medicare levy of 2% (with possible reductions for low-income earners). Use our [take-home pay](/topics/take-home) calculator to estimate your net income.\n\n## Example: From Patrick Dangerfield Salary to Hourly\n\nEven high-profile salaries like that of AFL star Patrick Dangerfield can be expressed in hourly terms. While we don't have his exact figure from the search results, the principle is the same: divide an annual salary by 52 weeks and then by the weekly hours. Conversely, if you know an hourly rate, multiply by 38 × 52 to get the annual equivalent. This method works for any salary, from the National Minimum Wage to a Patrick Dangerfield salary.\n\n## Fortnightly Pay\n\nMany employers pay fortnightly. Simply multiply your weekly pay by 2. For the National Minimum Wage, that is $2009.80 before tax and super. This can help with budgeting and comparing job offers.\n\n## Important Disclaimer\n\nAnnual pay here is hourly rate × hours per week × 52. It assumes the same rate every week, no unpaid overtime, no penalty rates, no allowances, and no salary sacrifice. Super is estimated at 12% of ordinary earnings only, paid on top, and stops at the $270,830 maximum contribution base. Tax is the 2026–27 resident scale with the full tax-free threshold. Medicare uses the 2025–26 single reduction thresholds because the 2026–27 reduction thresholds were not confirmed here. HELP, the Medicare levy surcharge, and salary packaging are not deducted. This is an estimate, not a determination of your pay or tax.\n\nFor more detailed calculations, visit our [hourly conversion](/topics/hourly-conversion) page or use [the timesheet](/) to enter your own rate.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

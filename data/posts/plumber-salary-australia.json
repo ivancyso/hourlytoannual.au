@@ -1,0 +1,27 @@
+{
+  "id": 573,
+  "slug": "plumber-salary-australia",
+  "keyword": "plumber salary australia",
+  "title": "Plumber Salary Australia: Award Rates, Annual Pay, and Tax in 2026–27",
+  "description": "Find out the plumber salary Australia under the Plumbing Award. Convert hourly rates to annual, fortnightly pay, casual loading, super, and tax including Medicare.",
+  "salarySummary": "A full-time plumbing tradesperson Level 1 under the Plumbing and Fire Sprinklers Award earns $31.63 per hour, or about $62,500 per year based on 38 hours per week.",
+  "faqs": [
+    {
+      "q": "What is the minimum hourly rate for a plumber in Australia?",
+      "a": "Under the Plumbing and Fire Sprinklers Award 2020, a Plumbing and mechanical services tradesperson Level 1 earns at least $31.63 per hour (full-time weekly hire) from 1 July 2026. Casual employees receive an additional 25% loading, making the casual rate $39.54 per hour. These rates include industry allowances and the plumbing trade allowance."
+    },
+    {
+      "q": "How is annual pay calculated from an hourly rate?",
+      "a": "Annual gross pay is hourly rate × hours per week × 52. For a full-time plumber working 38 ordinary hours per week, multiply the hourly rate by 38 then by 52. For example, $31.63 × 38 × 52 = $62,500.88. This assumes no overtime, penalty rates, or allowances beyond the base rate."
+    },
+    {
+      "q": "How much tax and Medicare does a plumber earning $62,500 pay?",
+      "a": "Using the 2026–27 resident tax scale, a plumber earning $62,500 pays $7,242 in tax (nil on first $18,200, 15% on $26,800, then 30% on $17,500) plus Medicare levy of $1,250 (2% of taxable income), total $8,492. Take-home pay is about $53,958 per year, or $4,496 per month. Super of 12% ($7,500) is paid on top by the employer."
+    }
+  ],
+  "bodyMarkdown": "## Understanding the Plumber Salary Australia\n\nIf you're looking at a **plumber salary Australia**, the first place to check is the Plumbing and Fire Sprinklers Award 2020, which sets minimum pay rates for plumbing and mechanical services workers. The Fair Work Ombudsman publishes pay guides that summarise these rates, including allowances and penalty rates. For a full-time adult plumbing tradesperson Level 1, the hourly rate from 1 July 2026 is **$31.63** per hour, or **$1,201.78** per week for 38 ordinary hours.\n\n### Converting Hourly to Annual Pay\n\nThe standard formula for annual gross pay is:\n\n**Hourly rate × hours per week × 52**\n\nFor a full-time plumber working 38 hours each week:\n\n$31.63 × 38 = $1,201.78 per week\n$1,201.78 × 52 = **$62,492.56 per year**\n\nThis calculation assumes the same rate every week, with no unpaid overtime, no penalty rates, and no allowances beyond the base rate. If you want to see your own figures, use [the timesheet](/) to convert any hourly rate. For a fortnight, simply double the weekly rate: $1,201.78 × 2 = $2,403.56 per fortnight.\n\n### Award Classifications and Higher Rates\n\nThe award has multiple classification levels. A Plumbing and mechanical services tradesperson Level 2 earns $32.55 per hour ($1,236.98 weekly), while an Advanced plumbing tradesperson Level 1 earns $35.24 per hour ($1,338.98 weekly). These rates already include the plumbing trade and registration allowance. For the full list, see the [reference tables](/data) on our site.\n\n### Casual Loading\n\nCasual plumbers receive a 25% loading on top of the hourly minimum rate. For a Level 1 tradesperson:\n\n$31.63 × 1.25 = **$39.54 per hour**\n\nThis loading compensates for entitlements casuals don't receive, such as paid leave. The [casual loading](/topics/casual-loading) page explains how it works. When using a calculator, never type a rate that already includes casual loading; add the 25% separately.\n\n### Superannuation Paid on Top\n\nEmployers must pay superannuation guarantee of **12% of ordinary earnings** on top of your ordinary earnings, up to the maximum contribution base of $270,830 per year. For a plumber earning $62,500, that's an extra $7,500 per year in super. This is not deducted from your pay; it's an employer contribution. See [super and packaging](/blog)\n- Medicare: $1,250 (2% of $62,500)\n- Total tax: $8,492\n- Take-home: $53,958 per year, or $4,496 per month\n\nIf you have a lower rate, like a new entrant Level 1(a) at $27.97 per hour ($1,062.71 weekly), annual gross $54,000. Tax is $3,000, Medicare $1,080, total $5,080, take-home $48,920. Use [take-home pay](/topics/take-home) to estimate your after-tax figures.\n\n## Comparing with National Minimum Wage\n\nThe National Minimum Wage from 1 July 2026 is $26.44 per hour ($1,004.9 per week for 38 hours). Award rates for plumbers are higher because they include industry allowances. The ABS Average Weekly Earnings for full-time adult ordinary time was $2,083.7 per week in May 2026, which is above the award rates for most plumbers. However, many plumbers earn above award through enterprise agreements or experience.\n\n## Summary\n\nA typical **plumber salary Australia** under the award is around $62,500 per year for a Level 1 tradesperson, with super of $7,500 on top. Casual plumbers earn $39.54 per hour. Tax and Medicare reduce take-home to about $53,958. For your specific rate, check the award classification and use the [hourly conversion](/topics/hourly-conversion) tool.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

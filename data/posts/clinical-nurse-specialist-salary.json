@@ -1,0 +1,27 @@
+{
+  "id": 1399,
+  "slug": "clinical-nurse-specialist-salary",
+  "keyword": "clinical nurse specialist salary",
+  "title": "Clinical Nurse Specialist Salary: How to Convert Your Hourly Rate to Annual Pay",
+  "description": "Calculate your clinical nurse specialist salary from an hourly rate. Use our timesheet with 38-hour weeks, casual loading, tax, and super. Based on Fair Work award rates.",
+  "salarySummary": "Under the Nurses Award 2020, a Registered Nurse at Pay point 5 earns $31.56 per hour, equating to approximately $62,400 per year for a 38-hour week, before tax and super.",
+  "faqs": [
+    {
+      "q": "What is the clinical nurse specialist salary under the Nurses Award?",
+      "a": "The Nurses Award 2020 does not have a specific classification for 'clinical nurse specialist'. The highest pay point for a Registered Nurse in the award is Pay point 5 at $31.56 per hour (from 1 August 2026). This gives an annual salary of about $62,400 for 38 hours per week. Many clinical nurse specialists are covered by enterprise agreements that set higher rates."
+    },
+    {
+      "q": "How is casual loading calculated for nurses?",
+      "a": "Casual employees under the Nurses Award get a 25% loading on top of the minimum hourly rate. For example, a Registered Nurse at Pay point 5 ($31.56) would have a casual rate of $39.45 per hour. The loading is paid for all ordinary hours, and overtime is then paid on the casual rate."
+    },
+    {
+      "q": "Does superannuation count towards my salary?",
+      "a": "No, superannuation is paid on top of your salary. Under the Superannuation Guarantee, your employer must contribute 12% of your ordinary earnings into a super fund, up to the maximum contribution base of $270,830 per year. This is separate from your take-home pay."
+    }
+  ],
+  "bodyMarkdown": "## Understanding Your Clinical Nurse Specialist Salary\n\nIf you are a clinical nurse specialist or considering a role in nursing, you may want to convert an hourly rate into an annual salary. The standard formula is:\n\n**Annual gross pay = hourly rate × hours per week × 52**\n\nThis calculation assumes you work the same number of hours every week, with no unpaid overtime, penalty rates, or allowances. For full-time nurses under the Nurses Award 2020, ordinary hours are 38 per week (or an average of 38). We use 38 hours in our examples.\n\n### Award Rates for Nurses\n\nThe Fair Work Ombudsman publishes the Nurses Award 2020 [MA000034], which sets minimum pay rates for nurses. The award includes several classification levels. For a Registered Nurse at the highest pay point (Pay point 5), the minimum hourly rate from 1 August 2026 is **$31.56**. This translates to:\n\n- Weekly: $31.56 × 38 = $1,199.28\n- Fortnightly: $1,199.28 × 2 = $2,398.56\n- Annual: $31.56 × 38 × 52 = $62,400 (rounded)\n\nNote that clinical nurse specialists often fall under enterprise agreements with higher rates. The award rate is the legal minimum. For comparison, the Australian Bureau of Statistics reports that full-time adult average weekly ordinary time earnings were $2,083.70 in May 2026, which is about $108,350 per year.\n\n### Casual Loading and Superannuation\n\nIf you work as a casual nurse, you receive a 25% loading on top of the base hourly rate. For the Registered Nurse example:\n\n- Base rate: $31.56\n- Casual loading (25%): $7.89\n- Casual hourly rate: $39.45\n\nThis loading compensates for the lack of paid leave. Superannuation is paid on top of your ordinary earnings. From 1 July 2026, the Superannuation Guarantee is 12% of your ordinary time earnings, up to the maximum contribution base of $270,830 per year. So on a $62,400 salary, your employer would contribute an extra $7,488 into your super fund.\n\n### Tax and Take-Home Pay\n\nUsing the 2026–27 resident tax rates and the Medicare levy (2%), here is an estimate for a $62,400 annual salary:\n\n- Tax-free threshold: $18,200\n- Tax on $18,201 to $45,000 (15%): $4,020\n- Tax on $45,001 to $62,400 (30%): $5,220\n- Total tax: $9,240\n- Medicare levy (2% of $62,400): $1,248\n- Total deductions: $10,488\n- Estimated take-home pay: $51,912 per year, or $998 per week\n\nThis is an estimate. Your actual tax may vary depending on your circumstances, such as the Medicare levy surcharge or HELP repayments.\n\n### Using Our Timesheet\n\nOur [the timesheet](/) lets you enter your base hourly rate and see the annual, fortnightly, and weekly figures. You can also check a box to add 25% casual loading on top of your base rate. Do not enter a rate that already includes casual loading—the tool adds it for you.\n\nFor more details on award classifications, visit our [pay guides](/blog) page. You can also explore [reference tables](/data) for minimum wage and average earnings.\n\n### Distinguishing Minimum Wage and Award Rates\n\nThe National Minimum Wage from 1 July 2026 is $26.44 per hour, or $33.05 with casual loading. Award rates, like those in the Nurses Award, are higher because they reflect the skills and responsibilities of the job. Always check the correct award for your role.\n\n### Final Thoughts\n\nWhen negotiating a clinical nurse specialist salary, remember that your hourly rate is just one part of the total package. Superannuation, leave entitlements, and penalty rates also matter. Use our tools to compare offers and understand your take-home pay.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

@@ -1,0 +1,27 @@
+{
+  "id": 453,
+  "slug": "kindergarten-teacher-salary",
+  "keyword": "kindergarten teacher salary",
+  "title": "Kindergarten Teacher Salary: Award Rates, Hourly Conversion, and Tax Guide",
+  "description": "Find out the kindergarten teacher salary under the Educational Services Award, how to convert hourly rates to annual and fortnightly pay, plus tax and super estimates.",
+  "salarySummary": "A full-time kindergarten teacher at Level 1 earns $38.30 per hour, or $75,941 per year based on 38 hours per week for 52 weeks.",
+  "faqs": [
+    {
+      "q": "What is the hourly rate for a kindergarten teacher under the award?",
+      "a": "Under the Educational Services (Teachers) Award 2020, a full-time kindergarten teacher at Level 1 (graduate) earns $38.30 per hour. Level 2 is $41.86, Level 3 $45.57, Level 4 $49.28, and Level 5 $52.99 per hour. These rates apply to preschools and schools; long day care centres pay 4% more."
+    },
+    {
+      "q": "How much superannuation is paid on a kindergarten teacher salary?",
+      "a": "The super guarantee is 12% of ordinary earnings, paid on top of the salary. For a Level 1 teacher earning $75,941 annual, the super contribution is about $9,113 per year, up to the maximum contribution base of $270,830. The employer pays this in addition to the base salary."
+    },
+    {
+      "q": "How is tax calculated on a kindergarten teacher's annual pay?",
+      "a": "For 2026–27, resident tax rates apply: nil on the first $18,200, 15% from $18,201 to $45,000, 30% to $135,000, 37% to $190,000, and 45% above that. The Medicare levy of 2% also applies. For a $75,941 salary, estimated tax plus Medicare is around $14,700, leaving about $61,200 after tax."
+    }
+  ],
+  "bodyMarkdown": "## Understanding the kindergarten teacher salary under the award\n\nA kindergarten teacher working in a kindergarten or preschool setting is typically covered by the **Educational Services (Teachers) Award 2020** [MA000077]**, as published by the Fair Work Ombudsman. This award sets minimum pay rates for teachers in preschools and schools, with classification levels from Level 1 (graduate) up to Level 5 (Highly Accomplished/Lead). The minimum weekly rate for a full-time teacher at Level 1 is $1,455.40 per week, or $75,941 per year. The hourly rate is $38.30 per hour (based on 38 ordinary hours per week.\n\nFor long day care centres (such as a children's or early childhood service that usually provides services over 8 hours each day for 48 weeks or more), the rates are 4% higher: Level 1 weekly $1,513.60, annual $78,979, hourly $39.85 per hour.\n\n## Converting a kindergarten teacher salary to annual and fortnightly pay\n\nTo convert an hourly rate to annual pay: **hourly × hours per week × 52. For full-time, we assume 38 hours per week. For example, a Level 1 teacher at $38.30 per hour: $38.30 × 38 × 52 = $75,941 per year. The fortnightly pay is weekly rate × 2: $1,455.40 × 2 = $2,910.80 per fortnight.\n\nFor part-time employees, pay is pro rata based on the full-time rate. For casual employees, the award sets a casual rate: for a full day, weekly rate divided by 5 plus 25% loading. The hourly casual rate for a full day at Level 1 is $38.30 × 1.25 = $47.88 per hour (but note the award says casual engaged less than 5 consecutive days no higher than Level 3).\n\n## Casual loading and superannuation\n\nCasual loading is 25% on top of the base hourly rate for award/agreement-free employees, but for award-covered teachers, the casual rate is specified. The timesheet on this site allows you to add 25% casual loading to a base hourly rate. Superannuation is 12% of ordinary earnings, paid on top of the salary. For a $75,941 salary, super is about $9,113 per year, up to the maximum contribution base of $270,830.\n\n## Tax and Medicare on your kindergarten teacher salary\n\nUsing the 2026–27 resident tax rates: nil to $18,200; 15% to $45,000; 30% to $135,000; 37% to $190,000; 45% above. Medicare levy is 2% (using 2025–26 single reduction thresholds). For a $75,941 salary, estimated tax: $0 on first $18,200, then 15% on $26,800 ($18,201 to $45,000) = $4,020, then 30% on $30,941 ($45,001 to $75,941) = $9,282, total tax $13,302, plus Medicare $1,518, total $14,702. After tax: $61,239.\n\nFor more details, see the [hourly conversion](/topics/hourly-conversion) and [super and packaging](/topics/super-and-packaging) guides.\n\n## Important notes\n\nAnnual pay is an estimate: same rate every week, no unpaid overtime, no penalty rates, no allowances, no salary sacrifice. Super is 12% of ordinary earnings only, paid on top, stops at $270,830. Tax is 2026–27 resident scale with full tax-free threshold. Medicare uses 2025–26 single reduction thresholds. HELP, Medicare levy surcharge, and salary packaging not deducted. This is an estimate, not a determination of your pay or tax.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

@@ -1,0 +1,27 @@
+{
+  "id": 617,
+  "slug": "after-tax-salary-calculator",
+  "keyword": "after tax salary calculator",
+  "title": "After Tax Salary Calculator: Convert Your Hourly Rate to Annual Pay in Australia",
+  "description": "Use our after tax salary calculator to convert hourly rates to annual, fortnightly and weekly pay. Includes tax, super and National Minimum Wage figures for 2026–27.",
+  "salarySummary": "For a full‑time employee working 38 hours per week, annual gross pay is the hourly rate multiplied by 38 hours then by 52 weeks.",
+  "faqs": [
+    {
+      "q": "How do I convert my hourly rate to an annual salary?",
+      "a": "Multiply your hourly rate by the number of hours you work each week, then multiply by 52 weeks. For a standard full‑time role, assume 38 hours per week. For example, $30 per hour × 38 hours × 52 weeks = $59,280 gross per year. Use our after tax salary calculator to see the net amount after tax and Medicare."
+    },
+    {
+      "q": "Does the National Minimum Wage include casual loading?",
+      "a": "No. The National Minimum Wage from 1 July 2026 is $26.44 per hour for permanent employees. Casual employees receive a 25% loading on top, making the casual minimum $33.05 per hour. The loading is paid separately and is not included in the base rate. Award rates may be higher and also include casual loading where applicable."
+    },
+    {
+      "q": "How is superannuation calculated on my pay?",
+      "a": "Superannuation Guarantee is 12% of your ordinary time earnings, paid on top of your salary. It does not reduce your take‑home pay. The contribution is capped at a maximum earnings base of $270,830 per year. For example, on a $60,000 salary, your employer would contribute $7,200 in super."
+    }
+  ],
+  "bodyMarkdown": "## After Tax Salary Calculator: From Hourly to Annual Pay\n\n### The basic conversion formula\n\nTo convert an hourly rate to an annual figure, use the formula: **hourly rate × hours per week × 52**. Most full‑time employees work 38 hours per week, so the standard assumption is 38 hours. For a part‑time or casual roles, adjust the hours to match your actual weekly hours. For example, $26.44 per hour × 38 hours × 52 weeks = $1,004.9 per week for the National Minimum Wage. That is the weekly pay for 38 hours. The annual gross is $26.44 × 38 × 52 = $1,004.9 per year. For a casual employee, the base rate is $26.44 plus 25% loading. The casual loading is paid on top, so the actual rate is $33.44 per hour including 25% loading. The annual gross for a casual on the minimum wage is $33.44 × 38 × 52 = $1,004.9 per year. The formula is the same: hourly × hours × 52. The after tax salary calculator will deduct tax and Medicare from that gross.\n\n### Award rates and award rates are different from the National Minimum Wage\n\nThe National Minimum Wage is the minimum for all employees. Award rates are set by the Fair Work Commission for specific industries or occupations. The Fair Work Ombudsman provides pay guides for each award. The reference tables on our [reference tables](/data) show the minimum for each classification. If the reference is an industry or state average, it is an average and not this job's median. The hourly conversion on our [hourly conversion](/) is the home page. You type a base hourly rate. A checkbox adds 25% casual loading on top. Never type a rate that already includes casual loading. The calculator then shows the annual, fortnightly, and weekly gross and net amounts. It also estimates super paid on top. The after tax salary calculator is a tool to estimate your take‑home pay.\n\n### Important notes\n\nAnnual pay here is hourly rate × hours per week × 52. It assumes the same rate every week, no unpaid overtime, no penalty rates, no allowances, and no salary sacrifice. Super is estimated at 12% of ordinary earnings only, paid on top, and stops at the $270,830 maximum contribution base. Tax is the 2026–27 resident scale with the full tax‑free threshold. Medicare uses the 2025–26 single reduction thresholds because the 2026–27 reduction thresholds were not confirmed here. HELP, the Medicare levy surcharge, and salary packaging are not deducted. This is an estimate, not a determination of your pay or tax.\n\nFor more details on pay guides, visit our [pay guides](/blog) page. For minimum wage information, see our [minimum wage](/topics/minimum-wage) topic. For take‑home pay estimates, see [take-home pay](/topics/take-home). For super and packaging, see [super and packaging](/topics/super-and-packaging). For average pay figures, see [average pay](/topics/average-pay). For casual loading, see [casual loading](/topics/casual-loading). For job pay, see [job pay](/topics/job-pay).",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": false,
+  "webSearchReason": "local-salary-db"
+}

@@ -1,0 +1,91 @@
+{
+  "currency": "AUD",
+  "taxYear": "2026–27",
+  "ordinaryHours": 38,
+  "weeksPerYear": 52,
+  "superRate": 0.12,
+  "superMaxBase": 270830,
+  "casualLoading": 0.25,
+  "source": "Fair Work Commission National Minimum Wage from 1 July 2026, Fair Work Ombudsman casual loading, Australian Bureau of Statistics Average Weekly Earnings May 2026, Australian Taxation Office resident rates for 2026–27 and super guarantee settings.",
+  "disclaimer": "Annual pay here is hourly rate × hours per week × 52. It assumes the same rate every week, no unpaid overtime, no penalty rates, no allowances, and no salary sacrifice. Super is estimated at 12% of ordinary earnings only, paid on top, and stops at the $270,830 maximum contribution base. Tax is the 2026–27 resident scale with the full tax-free threshold. Medicare uses the 2025–26 single reduction thresholds because the 2026–27 reduction thresholds were not confirmed here. HELP, the Medicare levy surcharge, and salary packaging are not deducted. This is an estimate, not a determination of your pay or tax.",
+  "national": {
+    "fullTimeOrdinaryWeekly": 2083.7,
+    "fullTimeOrdinaryMaleWeekly": 2181,
+    "fullTimeOrdinaryFemaleWeekly": 1934.5,
+    "allEmployeesTotalWeekly": 1579.2,
+    "privateOrdinaryWeekly": 2034.1,
+    "publicOrdinaryWeekly": 2263.1,
+    "reference": "ABS Average Weekly Earnings, May 2026. Full-time figures are adult ordinary-time earnings. The all-employees figure includes part-time work and is not an hourly rate."
+  },
+  "minimumWage": {
+    "from": "2026-07-01",
+    "adultHourly": 26.44,
+    "adultWeekly": 1004.9,
+    "casualHourly": 33.05,
+    "entryAwardHourly": 25.74,
+    "entryAwardWeekly": 978.1,
+    "awardIncrease": "4.75% from the first full pay period on or after 1 July 2026",
+    "note": "The National Minimum Wage applies to adult national-system employees who are not covered by an award or agreement. Most employees are on an award, which can be higher. The published hourly rate is rounded; the weekly rate is $1,004.90 for 38 ordinary hours."
+  },
+  "juniors": [
+    { "age": "Under 16", "percent": 36.8, "hourly": 9.73, "casualHourly": 12.16 },
+    { "age": "16", "percent": 47.3, "hourly": 12.51, "casualHourly": 15.64 },
+    { "age": "17", "percent": 57.8, "hourly": 15.29, "casualHourly": 19.11 },
+    { "age": "18", "percent": 68.3, "hourly": 18.06, "casualHourly": 22.58 },
+    { "age": "19", "percent": 82.5, "hourly": 21.82, "casualHourly": 27.28 },
+    { "age": "20", "percent": 97.7, "hourly": 25.84, "casualHourly": 32.3 },
+    { "age": "21 and over", "percent": 100, "hourly": 26.44, "casualHourly": 33.05 }
+  ],
+  "taxBrackets": [
+    { "from": 0, "to": 18200, "base": 0, "rate": 0, "label": "$0 – $18,200" },
+    { "from": 18201, "to": 45000, "base": 0, "rate": 0.15, "over": 18200, "label": "$18,201 – $45,000" },
+    { "from": 45001, "to": 135000, "base": 4020, "rate": 0.3, "over": 45000, "label": "$45,001 – $135,000" },
+    { "from": 135001, "to": 190000, "base": 31020, "rate": 0.37, "over": 135000, "label": "$135,001 – $190,000" },
+    { "from": 190001, "to": null, "base": 51370, "rate": 0.45, "over": 190000, "label": "$190,001 and over" }
+  ],
+  "medicare": {
+    "rate": 0.02,
+    "singleLower": 28011,
+    "singleUpper": 35013,
+    "note": "Single-person reduction thresholds published for 2025–26. 2026–27 thresholds may differ. The surcharge for people without private hospital cover is not included."
+  },
+  "states": [
+    { "id": "act", "name": "Australian Capital Territory", "match": "\\b(australian capital territory|\\bact\\b)", "weeklyAud": 2290.2 },
+    { "id": "wa", "name": "Western Australia", "match": "\\b(western australia|\\bwa\\b)", "weeklyAud": 2227.4 },
+    { "id": "nsw", "name": "New South Wales", "match": "\\b(new south wales|\\bnsw\\b)", "weeklyAud": 2108.8 },
+    { "id": "vic", "name": "Victoria", "match": "\\b(victoria|\\bvic\\b)", "weeklyAud": 2041.1 },
+    { "id": "qld", "name": "Queensland", "match": "\\b(queensland|\\bqld\\b)", "weeklyAud": 2039.7 },
+    { "id": "nt", "name": "Northern Territory", "match": "\\b(northern territory|\\bnt\\b)", "weeklyAud": 1984.1 },
+    { "id": "sa", "name": "South Australia", "match": "\\b(south australia|\\bsa\\b)", "weeklyAud": 1970.2 },
+    { "id": "tas", "name": "Tasmania", "match": "\\b(tasmania|\\btas\\b)", "weeklyAud": 1846.3 }
+  ],
+  "industries": [
+    { "id": "mining", "name": "Mining", "aliases": ["mining"], "weeklyAud": 3224.2 },
+    { "id": "information", "name": "Information media and telecommunications", "aliases": ["telecommunications", "information media"], "weeklyAud": 2714.1 },
+    { "id": "utilities", "name": "Electricity, gas, water and waste", "aliases": ["utilities", "electricity"], "weeklyAud": 2546 },
+    { "id": "professional", "name": "Professional, scientific and technical services", "aliases": ["professional services"], "weeklyAud": 2389.6 },
+    { "id": "finance", "name": "Financial and insurance services", "aliases": ["financial services", "insurance"], "weeklyAud": 2341.3 },
+    { "id": "education", "name": "Education and training", "aliases": ["education"], "weeklyAud": 2197.9 },
+    { "id": "public-admin", "name": "Public administration and safety", "aliases": ["public administration", "public service"], "weeklyAud": 2179.8 },
+    { "id": "health", "name": "Health care and social assistance", "aliases": ["health care", "aged care"], "weeklyAud": 2037.2 },
+    { "id": "transport", "name": "Transport, postal and warehousing", "aliases": ["transport", "warehousing"], "weeklyAud": 2032.3 },
+    { "id": "construction", "name": "Construction", "aliases": ["construction"], "weeklyAud": 1985.3 },
+    { "id": "wholesale", "name": "Wholesale trade", "aliases": ["wholesale"], "weeklyAud": 1982.9 },
+    { "id": "real-estate", "name": "Rental, hiring and real estate", "aliases": ["real estate"], "weeklyAud": 1979.6 },
+    { "id": "admin-support", "name": "Administrative and support services", "aliases": ["administrative"], "weeklyAud": 1950 },
+    { "id": "arts", "name": "Arts and recreation", "aliases": ["arts and recreation"], "weeklyAud": 1877.4 },
+    { "id": "manufacturing", "name": "Manufacturing", "aliases": ["manufacturing"], "weeklyAud": 1843.1 },
+    { "id": "other", "name": "Other services", "aliases": ["other services"], "weeklyAud": 1621.7 },
+    { "id": "retail", "name": "Retail trade", "aliases": ["retail"], "weeklyAud": 1581.6 },
+    { "id": "hospitality", "name": "Accommodation and food services", "aliases": ["hospitality", "accommodation and food"], "weeklyAud": 1509.9 }
+  ],
+  "hourBands": [16, 20, 24, 30, 38, 40],
+  "concepts": [
+    "A full-time ordinary week in the National Employment Standards is 38 hours.",
+    "Fortnightly pay is weekly pay × 2. There are 26 fortnights in a 52-week year.",
+    "Casual loading on the National Minimum Wage is 25%, so the adult casual floor is $33.05 an hour.",
+    "Super guarantee is 12% of qualifying earnings from 1 July 2026 and is paid on top of the hourly rate in this timesheet.",
+    "Salary sacrifice and salary packaging reduce taxable income or swap cash for benefits. They are not applied in the timesheet.",
+    "Resident income tax for 2026–27 starts at 15 cents in the dollar above $18,200, then 30, 37, and 45 cents. Medicare levy is generally 2%."
+  ]
+}

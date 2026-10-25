@@ -1,0 +1,198 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import salary from "../../data/salary-index.json";
+import { aud, ORDINARY_HOURS, WEEKS_PER_YEAR } from "../lib/pay";
+
+const year = (weekly: number) => weekly * WEEKS_PER_YEAR;
+const hour = (weekly: number) => weekly / ORDINARY_HOURS;
+const states = [...salary.states].sort((a, b) => b.weeklyAud - a.weeklyAud);
+const industries = [...salary.industries].sort((a, b) => b.weeklyAud - a.weeklyAud);
+const maxState = states[0]?.weeklyAud || 1;
+---
+
+<BaseLayout
+  title="Pay reference"
+  description="Australian minimum wage, tax brackets for 2026–27, super at 12%, and average weekly earnings for May 2026."
+>
+  <section class="section">
+    <p class="kicker">Reference</p>
+    <h1>The numbers behind the timesheet</h1>
+    <p class="lede">{salary.disclaimer}</p>
+  </section>
+
+  <section class="section">
+    <h2>National Minimum Wage</h2>
+    <p>
+      From the first full pay period on or after 1 July 2026, the adult National Minimum Wage is {aud(salary.minimumWage.adultHourly)} an hour, or {aud(salary.minimumWage.adultWeekly)} for 38
+      ordinary hours. Casual loading is 25%, so the adult casual floor is {aud(salary.minimumWage.casualHourly)}.
+      A 52-week reading of the weekly rate is {aud(year(salary.minimumWage.adultWeekly))}.
+    </p>
+    <p>
+      Award wages rose {salary.minimumWage.awardIncrease}. The lowest ongoing award rate must be at
+      least the National Minimum Wage. An entry-level rate for the first six months can be {aud(salary.minimumWage.entryAwardHourly)} an hour.
+    </p>
+    <table>
+      <caption class="visually-hidden">Award-free junior rates as a percentage of the adult National Minimum Wage</caption>
+      <thead>
+        <tr>
+          <th>Age</th>
+          <th class="num">Share</th>
+          <th class="num">Hourly</th>
+          <th class="num">Casual hourly</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          salary.juniors.map((row) => (
+            <tr>
+              <td>{row.age}</td>
+              <td class="num">{row.percent}%</td>
+              <td class="num">{aud(row.hourly)}</td>
+              <td class="num">{aud(row.casualHourly)}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+    <p class="fine">
+      Junior percentages are for award-free employees under the National Minimum Wage Order. Awards
+      use their own junior scales. Apprentice and trainee rates follow the relevant award.
+    </p>
+  </section>
+
+  <section class="section below-fold">
+    <h2>Average weekly earnings, May 2026</h2>
+    <p>{salary.national.reference}</p>
+    <table>
+      <caption class="visually-hidden">National earnings snapshots</caption>
+      <thead>
+        <tr>
+          <th>Measure</th>
+          <th class="num">Week</th>
+          <th class="num">Hour on 38</th>
+          <th class="num">52 weeks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Full-time ordinary time</td>
+          <td class="num">{aud(salary.national.fullTimeOrdinaryWeekly)}</td>
+          <td class="num">{aud(hour(salary.national.fullTimeOrdinaryWeekly))}</td>
+          <td class="num">{aud(year(salary.national.fullTimeOrdinaryWeekly))}</td>
+        </tr>
+        <tr>
+          <td>Full-time ordinary time, men</td>
+          <td class="num">{aud(salary.national.fullTimeOrdinaryMaleWeekly)}</td>
+          <td class="num">{aud(hour(salary.national.fullTimeOrdinaryMaleWeekly))}</td>
+          <td class="num">{aud(year(salary.national.fullTimeOrdinaryMaleWeekly))}</td>
+        </tr>
+        <tr>
+          <td>Full-time ordinary time, women</td>
+          <td class="num">{aud(salary.national.fullTimeOrdinaryFemaleWeekly)}</td>
+          <td class="num">{aud(hour(salary.national.fullTimeOrdinaryFemaleWeekly))}</td>
+          <td class="num">{aud(year(salary.national.fullTimeOrdinaryFemaleWeekly))}</td>
+        </tr>
+        <tr>
+          <td>Private sector, full-time ordinary time</td>
+          <td class="num">{aud(salary.national.privateOrdinaryWeekly)}</td>
+          <td class="num">{aud(hour(salary.national.privateOrdinaryWeekly))}</td>
+          <td class="num">{aud(year(salary.national.privateOrdinaryWeekly))}</td>
+        </tr>
+        <tr>
+          <td>Public sector, full-time ordinary time</td>
+          <td class="num">{aud(salary.national.publicOrdinaryWeekly)}</td>
+          <td class="num">{aud(hour(salary.national.publicOrdinaryWeekly))}</td>
+          <td class="num">{aud(year(salary.national.publicOrdinaryWeekly))}</td>
+        </tr>
+        <tr>
+          <td>All employees, total earnings</td>
+          <td class="num">{aud(salary.national.allEmployeesTotalWeekly)}</td>
+          <td class="num">—</td>
+          <td class="num">{aud(year(salary.national.allEmployeesTotalWeekly))}</td>
+        </tr>
+      </tbody>
+    </table>
+    <ol class="rank">
+      {
+        states.map((state) => (
+          <li>
+            <span>{state.name}</span>
+            <span class="bar" aria-hidden="true">
+              <i style={`width:${Math.round((state.weeklyAud / maxState) * 100)}%`} />
+            </span>
+            <span class="num">{aud(state.weeklyAud)} / wk</span>
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+
+  <section class="section below-fold">
+    <h2>Industries</h2>
+    <p>Full-time adult ordinary-time earnings by industry, May 2026. A job inside the industry can sit far from the average.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Industry</th>
+          <th class="num">Week</th>
+          <th class="num">Hour on 38</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          industries.map((row) => (
+            <tr>
+              <td>{row.name}</td>
+              <td class="num">{aud(row.weeklyAud)}</td>
+              <td class="num">{aud(hour(row.weeklyAud))}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </section>
+
+  <section class="section below-fold">
+    <h2>Resident tax, 2026–27</h2>
+    <p>These rates do not include the Medicare levy. They apply to residents entitled to the full tax-free threshold.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Taxable income</th>
+          <th>Tax on this income</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>$0 – $18,200</td>
+          <td>Nil</td>
+        </tr>
+        <tr>
+          <td>$18,201 – $45,000</td>
+          <td>15 cents for each dollar over $18,200</td>
+        </tr>
+        <tr>
+          <td>$45,001 – $135,000</td>
+          <td>$4,020 plus 30 cents for each dollar over $45,000</td>
+        </tr>
+        <tr>
+          <td>$135,001 – $190,000</td>
+          <td>$31,020 plus 37 cents for each dollar over $135,000</td>
+        </tr>
+        <tr>
+          <td>$190,001 and over</td>
+          <td>$51,370 plus 45 cents for each dollar over $190,000</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>{salary.medicare.note} The levy is generally 2% once the shade-in finishes.</p>
+    <h2>Super</h2>
+    <p>
+      From 1 July 2026 the super guarantee is 12% of qualifying earnings, paid each payday. This
+      timesheet puts that 12% on top of ordinary earnings and stops it once ordinary earnings reach {aud(salary.superMaxBase, 0)}, the maximum contribution base for 2026–27.
+    </p>
+    <ul>
+      {salary.concepts.map((line) => <li>{line}</li>)}
+    </ul>
+  </section>
+</BaseLayout>

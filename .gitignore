@@ -1,0 +1,10 @@
+dist/
+.astro/
+node_modules/
+.env
+.env.production
+.DS_Store
+.generate-blog-state.json
+data/generate.log
+data/generate-retry.log
+npm-debug.log*

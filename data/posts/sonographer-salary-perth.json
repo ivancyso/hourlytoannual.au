@@ -1,0 +1,27 @@
+{
+  "id": 535,
+  "slug": "sonographer-salary-perth",
+  "keyword": "sonographer salary perth",
+  "title": "Sonographer Salary Perth: How to Convert Your Hourly Rate to Annual Pay",
+  "description": "Find out how to convert a sonographer salary Perth hourly rate to annual, fortnightly, and weekly pay using 38 hours. Includes award rates, tax, and super from Fair Work and ATO.",
+  "salarySummary": "A full-time sonographer in Perth working 38 hours per week under the Health Professionals and Support Services Award earns at least the award minimum hourly rate, which increased by 4.75% from 1 July 2026.",
+  "faqs": [
+    {
+      "q": "What is the minimum hourly rate for a sonographer in Perth?",
+      "a": "Sonographers are covered by the Health Professionals and Support Services Award 2020. From 1 July 2026, award minimum wages increased by 4.75%. The exact rate depends on the classification level (e.g., Health Professional Level 2). You can find the specific hourly rate in the Fair Work Ombudsman’s pay guide for that award. The National Minimum Wage is $26.44 per hour, but sonographers typically earn above that."
+    },
+    {
+      "q": "How do I calculate annual pay from an hourly rate for a sonographer?",
+      "a": "Multiply the hourly rate by hours per week (usually 38 for full-time) then by 52 weeks. For example, $45 per hour × 38 × 52 = $88,920 per year. To get fortnightly pay, multiply the weekly amount by 2. Remember that superannuation (12%) is paid on top of ordinary earnings, and tax is deducted using the ATO’s 2026–27 resident tax scale."
+    },
+    {
+      "q": "Does casual loading apply to sonographer roles?",
+      "a": "Yes, if you are employed as a casual sonographer, you are entitled to a 25% casual loading on top of the base hourly rate. The base rate should not already include the loading. Use the timesheet tool to add the loading by checking the box. The casual rate for the National Minimum Wage is $33.05 per hour, but award rates for sonographers may be higher."
+    }
+  ],
+  "bodyMarkdown": "## Understanding the Sonographer Salary Perth Landscape\n\nIf you are looking at a sonographer salary Perth, you need to know how to convert your hourly rate into annual, weekly, and fortnightly figures. Sonographers in Perth are typically covered by the **Health Professionals and Support Services Award 2020 (MA000027). From 1 July 2026, award minimum wages increased by 4.75%, as confirmed by the Fair Work Ombudsman’s pay guides. The Fair Work Commission’s Modern Awards Pay Database provides the calculated minimum rates for each classification.\n\nTo convert an hourly to annual, use the formula: **hourly × hours per week × 52. For full-time work, the standard assumption is **38 hours per week. For example, if a sonographer earns $45 per hour, then $45 × 38 × 52 = $88,920 per year. For fortnightly, simply multiply the weekly amount by 2.\n\n## Minimum Award Rates and the National Minimum Wage\n\nIt is important to distinguish between the **National Minimum Wage** and the award rate. The National Minimum Wage from 1 July 2026 is $26.44 per hour, or $1,004.90 per week for 38 hours. Casual employees receive 25% loading, making the casual minimum $33.05 per hour. However, sonographers are professional employees and their minimum rates are set by the award. The award classification (e.g., Health Professional Level 2) determines the exact hourly rate. You can find these rates in the Fair Work Ombudsman’s pay guides or the reference tables.\n\n## Casual Loading and Superannuation\n\nIf you are a casual sonographer, you are entitled to a 25% casual loading on top of your base hourly rate. **Never type a base rate that already includes the loading** – the timesheet tool has a checkbox to add it. Superannuation guarantee is 12% of ordinary earnings, paid on top, up to the maximum contribution base of $270,830 per year. Super is an additional cost for your employer.\n\n## Tax and Medicare Levy\n\nResident tax for 2026–27: nil to $18,200; 15% to $45,000; 30% to $135,000; 37% to $190,000; 45% above that. Medicare levy generally 2% (using the 2025–26 single reduction thresholds). The Australian Taxation Office provides the scale.\n\n## Using the Timesheet and Pay Guides\n\nUse the timesheet to see your annual, fortnightly, and weekly estimates. It assumes the same rate every week, no unpaid overtime, no penalty rates, no allowances, and no salary sacrifice. Super is estimated at 12% of ordinary earnings only, on top. Tax uses the 2026–27 resident scale with the full tax-free threshold. Medicare uses the 2025–26 single reduction thresholds.\n\n## Conclusion\n\nA sonographer salary Perth can be converted using the simple formula. Always check the award classification for your exact minimum. The Fair Work Ombudsman and Fair Work Commission are the authoritative sources for award rates.\n\nFor more details, see the [pay guides](/blog) for the Health Professionals and Support Services Award, and the [reference tables](/data) for classification rates.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

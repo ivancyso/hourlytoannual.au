@@ -1,0 +1,10 @@
+# Hourly to annual
+
+Australian hourly-to-annual timesheet for a 38-hour ordinary week.
+
+The converter turns an hourly rate into weekly, fortnightly, and annual gross pay, then estimates resident income tax for 2026–27, the Medicare levy, and 12% super paid on top of ordinary earnings.
+
+Reference figures come from the Fair Work National Minimum Wage from 1 July 2026 ($26.44 an hour, $1,004.90 a week), ABS Average Weekly Earnings for May 2026, and ATO resident tax rates for 2026–27.
+
+Guides: https://hourlytoannual.au/blog
+Reference tables: https://hourlytoannual.au/data

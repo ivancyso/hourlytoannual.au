@@ -1,0 +1,110 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getPostIndex, PAGE_SIZE, pageCount, postsForPage } from "../../lib/posts";
+
+const page = 1;
+const posts = postsForPage(page);
+const pages = pageCount();
+const total = getPostIndex().length;
+---
+
+<BaseLayout
+  title="Pay guides"
+  description="Australian pay guides on hourly rates, the minimum wage, take-home pay, super, and average earnings."
+>
+  <section class="section">
+    <p class="kicker">Guides</p>
+    <h1>Pay questions, in the order people ask them</h1>
+    <p class="lede">
+      Each guide keeps the 38-hour week in view. Figures that are not in the reference tables are
+      treated as ranges, not promises.
+    </p>
+    <div class="field search-field">
+      <label for="guide-search">Find a guide</label>
+      <input id="guide-search" type="search" autocomplete="off" enterkeyhint="search" />
+    </div>
+    <ul class="search-results" id="guide-results" hidden></ul>
+    {
+      posts.length ? (
+        <ol class="roster" id="guide-roster">
+          {posts.map((post) => (
+            <li class="roster-row">
+              <a href={`/blog/${post.slug}`}>
+                <em>{post.keyword}</em>
+                <strong>{post.title}</strong>
+                <span>{post.salarySummary || post.description}</span>
+              </a>
+            </li>
+          ))}
+        </ol>
+      ) : (
+        <p>No guides yet. The timesheet on the home page still runs.</p>
+      )
+    }
+    {
+      pages > 1 && (
+        <nav class="pager" aria-label="Guide pages">
+          <span>
+            Page 1 of {pages}
+          </span>
+          <a href="/blog/page/2">Next</a>
+        </nav>
+      )
+    }
+    <p class="fine">{total ? `${total} guides.` : ""}</p>
+  </section>
+</BaseLayout>
+
+<script>
+  const input = document.querySelector<HTMLInputElement>("#guide-search");
+  const results = document.querySelector<HTMLUListElement>("#guide-results");
+  const roster = document.querySelector<HTMLElement>("#guide-roster");
+  let index: { slug: string; title: string; keyword: string }[] | null = null;
+
+  async function load() {
+    if (index) return index;
+    const response = await fetch("/search-index.json");
+    index = response.ok ? await response.json() : [];
+    return index;
+  }
+
+  const escapeHtml = (value: string) =>
+    value.replace(/[&<>"']/g, (char) => {
+      const map: Record<string, string> = {
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;",
+      };
+      return map[char] ?? char;
+    });
+
+  input?.addEventListener("input", async () => {
+    const query = input.value.trim().toLowerCase();
+    if (!results || !query) {
+      if (results) {
+        results.hidden = true;
+        results.innerHTML = "";
+      }
+      if (roster) roster.hidden = false;
+      return;
+    }
+    const rows = (await load()) ?? [];
+    const hits = rows
+      .filter((row) => `${row.title} ${row.keyword}`.toLowerCase().includes(query))
+      .slice(0, 12);
+    results.innerHTML = hits
+      .map(
+        (row) =>
+          `<li><a href="/blog/${escapeHtml(row.slug)}"><strong>${escapeHtml(row.title)}</strong><br><span>${escapeHtml(row.keyword)}</span></a></li>`,
+      )
+      .join("");
+    results.hidden = hits.length === 0;
+    if (roster) roster.hidden = true;
+    if (!hits.length) {
+      results.hidden = false;
+      results.innerHTML = "<li>No guide uses those words.</li>";
+    }
+  });
+</script>

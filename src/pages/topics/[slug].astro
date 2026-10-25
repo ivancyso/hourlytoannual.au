@@ -1,0 +1,49 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getPostIndex } from "../../lib/posts";
+import { topics, topicsForKeyword } from "../../lib/topics";
+
+export function getStaticPaths() {
+  return topics.map((topic) => ({ params: { slug: topic.slug } }));
+}
+
+const slug = Astro.params.slug ?? "";
+const topic = topics.find((item) => item.slug === slug);
+if (!topic) throw new Error(`Missing topic: ${slug}`);
+
+const posts = getPostIndex().filter((post) =>
+  topicsForKeyword(post.keyword).some((item) => item.slug === topic.slug),
+);
+---
+
+<BaseLayout title={topic.name} description={topic.description}>
+  <section class="section">
+    <p class="crumbs">
+      <a href="/topics">Topics</a>
+      <span aria-hidden="true">/</span>
+      <span>{topic.name}</span>
+    </p>
+    <h1>{topic.name}</h1>
+    <p class="lede">{topic.description}</p>
+    <p>
+      <a href="/">Run a rate through the timesheet</a> · <a href="/data">Check the reference tables</a>
+    </p>
+    {
+      posts.length ? (
+        <ol class="roster">
+          {posts.slice(0, 40).map((post) => (
+            <li class="roster-row">
+              <a href={`/blog/${post.slug}`}>
+                <em>{post.keyword}</em>
+                <strong>{post.title}</strong>
+                <span>{post.salarySummary || post.description}</span>
+              </a>
+            </li>
+          ))}
+        </ol>
+      ) : (
+        <p>No guide is filed here yet.</p>
+      )
+    }
+  </section>
+</BaseLayout>

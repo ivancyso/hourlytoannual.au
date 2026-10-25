@@ -1,0 +1,27 @@
+{
+  "id": 596,
+  "slug": "aps-6-salary",
+  "keyword": "aps 6 salary",
+  "title": "APS 6 Salary: Convert Your Hourly Rate to Annual Pay with a 38-Hour Week",
+  "description": "Learn how to convert an APS 6 salary to hourly or annual pay using a 38-hour week, 52-week year. Includes tax, super, and Fair Work minimum rates.",
+  "salarySummary": "For an APS 6 employee on the lowest pay point from March 2026, the annual salary is $101,142, which equates to about $51.19 per hour based on a 38-hour week.",
+  "faqs": [
+    {
+      "q": "How do I calculate my hourly rate from an APS 6 salary?",
+      "a": "Divide the annual APS 6 salary by 1,976 (38 hours × 52 weeks). For example, the lowest APS 6 rate from March 2026 is $101,142, giving an hourly rate of $51.19. This assumes no overtime or allowances."
+    },
+    {
+      "q": "What is the fortnightly pay for an APS 6 employee?",
+      "a": "Fortnightly pay is the weekly pay multiplied by 2. For the $101,142 APS 6 salary, weekly pay is $1,945.04 ($101,142 ÷ 52), so fortnightly pay is $3,890.08 before tax and super."
+    },
+    {
+      "q": "Does the APS 6 salary include superannuation?",
+      "a": "No, the APS 6 salary is base pay. Superannuation is paid on top at 12% of ordinary earnings, up to the maximum contribution base of $270,830. For the $101,142 salary, super adds about $12,137 per year."
+    }
+  ],
+  "bodyMarkdown": "## Understanding the APS 6 Salary and Hourly Conversion\n\nIf you’re looking at an APS 6 salary, you’re likely in the Australian Public Service (APS) or considering a role with the Australian Taxation Office (ATO). The ATO’s enterprise agreement sets out specific pay points for APS classifications, including APS 6. As of March 2026, the lowest APS 6 rate is $101,142 per year, rising to $116,131 at the top of the band. But what does that mean if you’re paid by the hour? Our [hourly conversion](/topics/hourly-conversion) tool helps you switch between hourly and annual pay.\n\n### The 38-Hour Week and the Fortnight\n\nMost full-time APS roles are based on a 38-hour week. To convert an annual salary to an hourly rate, divide by 38 hours × 52 weeks = 1,976 hours. For the $101,142 APS 6 rate, that’s $51.19 per hour. If you know your hourly rate, multiply by 38 then by 52 to get annual gross. For example, $51.19 × 38 × 52 = $101,142. The fortnightly pay is weekly pay × 2: $1,945.04 per week, so $3,890.08 per fortnight. This assumes the same rate every week with no unpaid overtime or penalty rates.\n\n### National Minimum Wage vs Award Rates\n\nNot everyone is on an APS agreement. The National Minimum Wage from 1 July 2026 is $26.44 per hour, or $1,004.90 per week for 38 hours. Casual employees get a 25% loading, making the minimum $33.05 per hour. Award rates may be higher. The Fair Work Ombudsman provides [pay guides](/blog) for each award. If you’re covered by an enterprise agreement like the ATO’s, those rates override the award. Always check your classification.\n\n### Tax and Super on Your APS 6 Salary\n\nTax is calculated using the 2026–27 resident rates: nil up to $18,200, then 15% to $45,000, 30% to $135,000, 37% to $190,000, and 45% above. Medicare levy is 2% (using 2025–26 single reduction thresholds). For a $101,142 salary, tax is roughly $24,267 plus Medicare $2,023, leaving about $74,852 after tax. Super guarantee is 12% of ordinary earnings, paid on top, up to the $270,830 maximum contribution base. That adds $12,137 to your total remuneration. Use our [take-home pay](/topics/take-home) calculator for a precise estimate.\n\n### Casual Loading and Other Considerations\n\nIf you’re a casual APS employee, you may receive a casual loading (often 25%) on top of the base rate. Our [casual loading](/topics/casual-loading) page explains how to apply it. Remember, the loading is added to the hourly rate, not included in the annual salary. For the APS 6 rate, casual loading would bring the hourly rate to about $63.99. Always confirm your employment type.\n\n### Using the Timesheet and Reference Tables\n\nOur [the timesheet](/) lets you enter your base hourly rate and optionally add casual loading. It calculates annual, monthly, fortnightly, and weekly figures. For APS employees, you can also check [reference tables](/data) for the latest pay points. The ATO’s enterprise agreement includes multiple APS 6 steps, so find your exact salary before converting.\n\n### Important Disclaimer\n\nAnnual pay here is hourly rate × hours per week × 52. It assumes the same rate every week, no unpaid overtime, no penalty rates, no allowances, and no salary sacrifice. Super is estimated at 12% of ordinary earnings only, paid on top, and stops at the $270,830 maximum contribution base. Tax is the 2026–27 resident scale with the full tax-free threshold. Medicare uses the 2025–26 single reduction thresholds because the 2026–27 reduction thresholds were not confirmed here. HELP, the Medicare levy surcharge, and salary packaging are not deducted. This is an estimate, not a determination of your pay or tax.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}
