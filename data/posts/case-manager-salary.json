@@ -1,0 +1,27 @@
+{
+  "id": 384,
+  "slug": "case-manager-salary",
+  "keyword": "case manager salary",
+  "title": "Case Manager Salary: Converting Your Hourly Rate to Annual Pay with Casual Loading and Super",
+  "description": "Learn how to convert a case manager salary from hourly to annual using 38 hours per week, including casual loading and super paid on top. Use our timesheet to calculate your take-h",
+  "salarySummary": "For a case manager salary, the National Minimum Wage is $26.44 per hour, but award rates may be higher. Using 38 hours per week, annual gross pay is hourly × 38 × 52, with super paid on top.",
+  "faqs": [
+    {
+      "q": "How do I convert a case manager salary from hourly to annual for a 38-hour week?",
+      "a": "Multiply your hourly rate by 38 hours per week and then by 52 weeks. For example, $30 per hour × 38 × 52 = $59,280 per year. Super is 12% on top of that. Use our [hourly conversion](/topics/hourly-conversion) tool."
+    },
+    {
+      "q": "What is the casual loading for a case manager salary?",
+      "a": "Casual employees get a 25% loading on top of the base hourly rate. For a case manager salary, if the base award rate is $30, the casual rate becomes $37.50 per hour. This loading is shown in our timesheet with a checkbox. See [casual loading](/topics/casual-loading) for more."
+    },
+    {
+      "q": "Does super guarantee apply to a case manager salary?",
+      "a": "Yes, super is 12% of ordinary earnings paid on top of your gross pay. For a case manager salary, super is calculated on ordinary time earnings up to the maximum contribution base. Check our super and packaging guide."
+    }
+  ],
+  "bodyMarkdown": "## Understanding Case Manager Salary: Hourly to Annual\n\nIf you are a case manager or considering a role, you may see an hourly rate or a salary offer. To compare them, you need to convert hourly to annual using the standard full-time week of 38 hours. This guide explains the conversion, including casual loading and superannuation paid on top.\n\n### The Basic Formula: Hourly × Hours per Week × 52\n\nAnnual gross pay = hourly rate × hours per week × 52 weeks. For a case manager salary, assume 38 hours per week unless your award specifies otherwise. For example, if your hourly rate is $35, then:\n\n$35 × 38 × 52 = $69,160 per year.\n\nThis figure does not include super, which is paid on top. The fortnightly equivalent is weekly pay × 2. Weekly pay = hourly × 38. So $35 × 38 = $1,330 per week, or $2,660 per fortnight.\n\n### National Minimum Wage vs Award Rates\n\nFrom 1 July 2026, the National Minimum Wage is $26.44 per hour, or $1,004.90 per week for 38 hours Fair Work Ombudsman. However, most case managers are covered by an award, such as the Social, Community, Home Care and Disability Services Industry Award. Award minimum wages increased by 4.75% from 1 July 2026, as noted in the Fair Work Commission's Modern Awards Pay Database Fair Work Commission. Always check the specific award pay guide for your classification.\n\n### Casual Loading: 25% on Top\n\nIf you are a casual case manager, you receive a 25% loading on your base hourly rate. This compensates for not receiving paid leave. For example, if the award rate is $30 per hour, the casual rate is $30 × 1.25 = $37.50 per hour. Our [timesheet](/) has a checkbox to add casual loading automatically. Never enter a rate that already includes loading; enter the base rate and tick the box.\n\n### Superannuation Paid on Top\n\nSuper guarantee is 12% of your ordinary earnings, paid by your employer on top of your gross pay. For a case manager salary of $69,160, super would be $69,160 × 0.12 = $8,299.20, bringing total employment cost to $77,459.20. The super guarantee maximum contribution base is $270,830 per quarter (2026–27). Super is not deducted from your pay; it is additional.\n\n### Tax and Take-Home Pay\n\nYour take-home pay depends on tax brackets and Medicare levy. For 2026–27, the resident tax rates are:\n- Nil tax on first $18,200\n- 15% from $18,201 to $45,000\n- 30% from $45,001 to $135,000\n- 37% from $135,001 to $190,000\n- 45% above $190,000\nMedicare levy is generally 2% of taxable income. Use our [take-home pay](/topics/take-home) tool to estimate net pay.\n\n### Using Our Reference Tables\n\nOur reference tables [reference tables](/data) provide award rates, allowances, and penalty rates. For case manager salary, check the relevant award pay guide [pay guides](/blog), it was $1,579.20. Case manager salaries may vary.\n\n### Conclusion\n\nConverting a case manager salary from hourly to annual is straightforward: hourly × 38 × 52. Remember casual loading and super on top. Use our [timesheet](/) to calculate your pay.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

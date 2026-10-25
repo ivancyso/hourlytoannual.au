@@ -1,0 +1,27 @@
+{
+  "id": 601,
+  "slug": "anesthetist-salary-australia",
+  "keyword": "anesthetist salary australia",
+  "title": "Anesthetist Salary Australia: Hourly Rate, Annual Pay and Fortnightly Take-Home",
+  "description": "Find the anesthetist salary Australia based on ABS data. Convert hourly rate to annual pay for a 38-hour week, plus fortnightly take-home and super on top.",
+  "salarySummary": "Based on ABS data, the median anesthetist salary in Australia is $8,293 per week for full-time work, equating to approximately $431,236 per year assuming a 38-hour week.",
+  "faqs": [
+    {
+      "q": "What is the average anesthetist salary in Australia?",
+      "a": "According to the Australian Bureau of Statistics, the median full-time anesthetist salary is $8,293 per week, which is about $218 per hour for a 38-hour week. This is for full-time non-managerial adult employees and is much higher than the national minimum wage."
+    },
+    {
+      "q": "How is anesthetist pay calculated from an hourly rate?",
+      "a": "To get annual pay, multiply the hourly rate by hours per week and 52. For a 38-hour week, annual gross = hourly × 38 × 52. For example, the national minimum wage of $26.44 gives $1004.90 per week. Anesthetist rates are set by the Medical Practitioners Award or individual contracts, not the national minimum wage."
+    },
+    {
+      "q": "Does the anesthetist salary include super?",
+      "a": "No, super is paid on top at 12% of ordinary earnings, up to the maximum contribution base of $270,830. It is not included in the hourly rate or salary figure. For an anesthetist earning $430,000, super is capped at $32,499.60 per year."
+    }
+  ],
+  "bodyMarkdown": "## Anesthetist Salary Australia: Hourly Rate, Annual Pay and Fortnightly Take-Home\n\nIf you are researching an anesthetist salary Australia, you likely want to know how your hourly rate translates into annual pay, fortnightly pay, and what you take home after tax. The Australian Bureau of Statistics reports that the median full-time anesthetist salary is $8,293 per week, according to the latest Jobs and Skills Australia profile. That figure is for full-time non-managerial adult employees and is based on the ABS Survey of Employee Earnings and Hours. It equates to approximately $218 per hour for a 38-hour week.\n\n### How the Hourly Rate Converts to Annual Pay\n\nThe standard formula we use on [the timesheet](/) is: annual gross pay = hourly rate × hours per week × 52. For a 38-hour week, that is hourly × 38 × 52. For the national minimum wage of $26.44 per hour, that gives $1004.90 per week and $52,254.80 per year. For an anesthetist earning $218 per hour, annual pay would be $218 × 38 × 52 = $430,768. This is close to the median of $431,236 (since $8,293 × 52 = $431,236). The small difference is due to rounding.\n\n### The National Minimum Wage vs Anesthetist Pay\n\nThe Fair Work Commission sets the national minimum wage at $26.44 per hour from 1 July 2026. Casual employees get a 25% loading, making it $33.05 per hour. Anesthetists are not covered by the national minimum wage; they are covered by the Medical Practitioners Award 2020 or individual contracts. The award sets minimum rates for different classifications, but the median anesthetist salary is far above award rates. The ABS data reflects the market rate.\n\n### Fortnightly Pay and Tax\n\nFortnightly pay is simply weekly pay multiplied by two. For the anesthetist median, fortnightly gross pay is $8,293 × 2 = $16,586. After tax, using the 2026–27 resident tax scale and Medicare levy, the take-home pay will be less. For example, on a $430,000 annual salary, the tax would be approximately $182,000 (including Medicare), leaving about $248,000 net per year, or $9,538 per fortnight. Use our [take-home pay](/topics/take-home) tool for a precise estimate.\n\n### Super and Packaging on Top\n\nSuper guarantee is 12% of ordinary earnings, paid on top of your salary. It does not reduce your take-home pay. For an anesthetist earning $430,000, the maximum super contribution base is $430,000, so super is capped at $51,600 per year. See [super and packaging](/topics/super-and-packaging) for more.\n\n### Using the Timesheet for Your Own Calculation\n\nIf you have an hourly rate, you can use [the timesheet](/) to convert it to annual, fortnightly, and weekly figures. Remember to check the casual loading box if you are a casual employee. Do not enter a rate that already includes casual loading. The timesheet assumes a 38-hour week and 52 weeks per year. It does not account for unpaid overtime, penalty rates, or allowances.\n\n### A Note on Award Rates\n\nIf you are covered by a modern award, your minimum pay is set by the Fair Work Commission's Modern Awards Pay Database. The award includes classifications, wage-related allowances, and penalty rates. The anesthetist salary Australia median is a market rate, not an award rate. Always check your specific award or agreement.\n\n### Conclusion\n\nUnderstanding your anesthetist salary Australia involves converting hourly to annual using the 38-hour week formula. The median is high, but tax and super are separate. Use the tools on this site to estimate your own figures.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

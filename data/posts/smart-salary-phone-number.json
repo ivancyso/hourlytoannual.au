@@ -1,0 +1,27 @@
+{
+  "id": 495,
+  "slug": "smart-salary-phone-number",
+  "keyword": "smart salary phone number",
+  "title": "Smart Salary Phone Number: Convert Your Hourly Rate to Annual Pay with Fair Work Rates",
+  "description": "Use the smart salary phone number 13 13 13 94 for award rates. Convert hourly to annual using 38-hour weeks, tax, super. Fair Work Ombudsman and ATO estimates included.",
+  "salarySummary": "At the National Minimum Wage of $26.44 per hour for a 38-hour week, your annual gross pay is about $52,255 before tax and super.",
+  "faqs": [
+    {
+      "q": "How do I convert my hourly rate to annual salary?",
+      "a": "Multiply your hourly rate × hours per week × 52. For a 38-hour week, that's hourly × 38 × 52. For example, $30 per hour gives $30 × 38 × 52 = $59,280 gross. Use the [hourly conversion](/topics/hourly-conversion) page for quick estimates."
+    },
+    {
+      "q": "What is the difference between the National Minimum Wage and award rates?",
+      "a": "The National Minimum Wage ($26.44 per hour from 1 July 2026) applies to award/agreement-free employees. Award rates, set by the Fair Work Commission, are higher for specific industries and include penalty rates and allowances. Check the [pay guides](/blog) from the Fair Work Ombudsman for your award."
+    },
+    {
+      "q": "Is super paid on top of my salary?",
+      "a": "Yes, the super guarantee is 12% of your ordinary earnings, paid by your employer on top of your gross salary. It is capped at the maximum contribution base of $270,830 per year. See [super and packaging](/topics/super-and-packaging) for more."
+    }
+  ],
+  "bodyMarkdown": "## Smart Salary Phone Number: Your Hourly to Annual Conversion Guide\n\nIf you need a smart salary phone number to verify your award rate or minimum wage entitlements, call the Fair Work Infoline on 13 13 94. This guide explains how to convert your hourly rate to annual, fortnightly, and weekly pay, using the latest Fair Work Commission and Australian Taxation Office figures.\n\n### The Basic Formula: Hourly × Hours × 52\n\nYour annual gross salary is your hourly rate multiplied by the number of hours you work each week, multiplied by 52 weeks. For a standard full-time employee working 38 hours per week, the formula is:\n\n**Annual gross = hourly rate × 38 × 52**\n\nFor example, at the National Minimum Wage of $26.44 per hour, your annual pay is:\n- Weekly: $26.44 × 38 = $1,004.90 (rounded from $1,004.72)\n- Annual: $1,004.90 × 52 = $52,254.80\n\nThis matches the Fair Work Commission's National Minimum Wage Order 2026. [minimum wage](/blog). Use the [casual loading](/topics/casual-loading) tool to see the difference.\n\n### Award Rates vs National Minimum Wage\n\nMost employees are covered by an award that sets higher minimum rates than the National Minimum Wage. The Fair Work Ombudsman provides pay guides for each award. For example, the Social, Community, Home Care and Disability Services Industry Award (SCHADS) has specific rates. From 1 December 2026, home care disability employees under SCHADS will receive an initial increase of up to 15% to their minimum award rates. Always check your award using the [pay guides](/blog) from the Fair Work Ombudsman.\n\n### Super Guarantee Paid on Top\n\nYour employer must pay super guarantee of 12% of your ordinary earnings on top of your gross salary. This is not deducted from your pay; it is an additional contribution. The maximum contribution base for super is $270,830 per year. For a full-time worker earning $52,255, super adds about $6,270.60 per year. See [super and packaging](/topics/super-and-packaging) for details.\n\n### Tax and Medicare Levy\n\nFor the 2026–27 income year, the Australian Taxation Office uses these tax brackets:\n- $0 – $18,200: nil\n- $18,201 – $45,000: 15c for each $1 over $18,200\n- $45,001 – $135,000: $4,020 plus 30c for each $1 over $45,000\n- $135,001 – $190,000: $31,020 plus 37c for each $1 over $135,000\n- $190,001+: $51,370 plus 45c for each $1 over $190,000\n\nPlus a Medicare levy of 2% of taxable income (based on 2025–26 single reduction thresholds). Use the ATO's gross pay estimator to estimate your take-home pay.\n\n### Example: Full-Time Adult Ordinary Time Earnings\n\nAccording to the Australian Bureau of Statistics, average weekly earnings for full-time adult ordinary time employees were $2,083.70 in May 2026. That equates to an hourly rate of approximately $54.83 ($2,083.70 ÷ 38). For all employees (including part-time), average total earnings were $1,579.20 per week.\n\n### Important Disclaimer\n\nAnnual pay here is hourly rate × hours per week × 52. It assumes the same rate every week, no unpaid overtime, no penalty rates, no allowances, and no salary sacrifice. Super is estimated at 12% of ordinary earnings only, paid on top, and stops at the $270,830 maximum contribution base. Tax is the 2026–27 resident scale with the full tax-free threshold. Medicare uses the 2025–26 single reduction thresholds because the 2026–27 reduction thresholds were not confirmed here. HELP, the Medicare levy surcharge, and salary packaging are not deducted. This is an estimate, not a determination of your pay or tax.\n\nFor a smart salary phone number to check your award rate, call the Fair Work Infoline 13 13 94. For personal tax estimates, use the ATO's [take-home pay](/topics/take-home] calculator.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "named-or-off-market"
+}

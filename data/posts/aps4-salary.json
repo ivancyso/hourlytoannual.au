@@ -1,0 +1,14 @@
+{
+  "id": 454,
+  "slug": "aps4-salary",
+  "keyword": "aps4 salary",
+  "title": "Understanding the APS4 Salary: Hourly Rates, Fortnightly Pay, and Super for APS4 Pay Points",
+  "description": "Learn how to convert an APS4 salary to an hourly rate for a 38-hour week, including casual loading, super paid on top, and tax. Uses ATO pay tables and Fair Work Ombudsman data.",
+  "salarySummary": "An APS4 salary from $84,028 to $91,199 per annum (from 12 March 2026, per ATO attachment A) converts to an hourly rate between $42.52 and $46.15 for a 38-hour week, with 12% super on top.",
+  "faqs": [],
+  "bodyMarkdown": "## Converting an APS4 Salary to an Hourly Rate\n\nWhen you see a job advertisement quoting an **APS4 salary**, it is an annual figure before tax and before super. To work out the hourly rate for a 38-hour week, use the formula: **hourly rate = annual salary ÷ 52 weeks ÷ 38 hours. The timesheet assumes 38 hours per week unless your award or agreement says otherwise.\n\nFor example, the ATO Enterprise Agreement 2024 (Attachment A) shows APS4 pay points from $84,028 to $91,191 from 12 March 2026. The lowest APS4 step ($84,028) gives $42.52 per hour. The highest step ($91,199 gives $46.15 per hour. The fortnightly pay is weekly pay × 2, so $42.42 per hour × 38 hours × 2 = $3,231.60 per fortnight.\n\n### National Minimum Wage and Award Rates\n\nThe National Minimum Wage from 1 July 2026 is $26.42 per hour for a 38-hour week, $1,004.9 per week for full-time. Casual employees get 25% loading on top, at $33.05 per hour including loading. The Fair Work Ombudsman pay guides list minimum rates for each award and [average pay](/topics/average-pay) topics. The ABS Average Weekly Earnings, May 2026: full-time adult ordinary time $2,083.7 per week. All employees total earnings $1,579.2 per week (includes part-time).\n\n### Fortnightly Pay\n\nFortnightly pay is weekly pay × 2. For an APS4 salary of $84,028 per annum, weekly pay is $1,615.80, fortnightly $3,231.60. The timesheet shows both weekly and fortnightly figures.\n\n### Summary\n\nAlways check your specific award or agreement for exact rates. The timesheet is an estimate, not a determination of your pay or tax. Use the [pay guides](/blog) for your award.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

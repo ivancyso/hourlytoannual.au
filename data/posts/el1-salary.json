@@ -1,0 +1,27 @@
+{
+  "id": 471,
+  "slug": "el1-salary",
+  "keyword": "el1 salary",
+  "title": "EL1 Salary: How to Convert Your Hourly Rate to Annual Pay with a 38-Hour Week",
+  "description": "Convert your hourly rate to an annual EL1 salary using a 38-hour week, 52-week year. Includes fortnight pay, tax, and super calculations based on Fair Work and ATO figures.",
+  "salarySummary": "For a 38-hour week and 52-week year, annual gross pay is your hourly rate multiplied by 1,976 hours (38 × 52).",
+  "faqs": [
+    {
+      "q": "How do I calculate my annual EL1 salary from an hourly rate?",
+      "a": "Multiply your hourly rate by the number of hours you work each week, then by 52. For a standard 38-hour week, that's hourly × 38 × 52. For example, $40 per hour × 38 × 52 = $79,040 per year. This assumes no unpaid overtime, penalty rates, or allowances."
+    },
+    {
+      "q": "What is the fortnightly pay for an EL1 salary?",
+      "a": "Fortnightly pay is simply weekly pay multiplied by 2. If your weekly pay is $1,520 (based on $40/hour × 38 hours), your fortnightly gross is $3,040. Remember that tax and super are calculated on top of these amounts."
+    },
+    {
+      "q": "Does the EL1 salary include superannuation?",
+      "a": "No, the salary figure usually quoted is the base salary. Superannuation is paid on top at the 12% super guarantee rate (for 2026–27) up to the maximum contribution base of $270,830. So if your base annual salary is $80,000, the employer contributes an additional $9,600 to super."
+    }
+  ],
+  "bodyMarkdown": "## Understanding EL1 Salary and Hourly Conversion\n\nIf you're looking at an EL1 salary in the Australian Public Service, you might see an annual figure or an hourly rate. The key to comparing them is understanding the standard working week. Most full-time roles, including EL1 positions, are based on a 38-hour week. This article explains how to convert your hourly rate to an annual salary, how to work out your fortnightly pay, and what to expect for tax and super.\n\n## How to Convert Hourly to Annual Salary\n\nThe basic formula is simple: **hourly rate × hours per week × 52 weeks**. For a 38-hour week, that's **hourly × 1,976**. For example, if your hourly rate is $45, your annual gross pay is $45 × 38 × 52 = $88,920. This is the amount before tax and before super (which is paid on top).\n\n### The 38-Hour Week Assumption\n\nMost full-time awards and agreements, including those covering EL1 roles, use a 38-hour ordinary week. The [National Minimum Wage](/topics/minimum-wage) from 1 July 2026 is $26.44 per hour, which gives a weekly minimum of $1,004.90 for 38 hours. If you work part-time or casual, your hours may differ, but for a standard full-time EL1 salary, 38 hours is the benchmark.\n\n### Fortnightly Pay\n\nMany employers pay fortnightly. To find your fortnightly gross pay, multiply your weekly pay by 2. Using the $45/hour example: weekly = $1,710, fortnightly = $3,420. This is useful for budgeting and comparing with salary packaging options.\n\n## National Minimum Wage, Award Rates, and Casual Loading\n\nIt's important to distinguish between different pay types. The National Minimum Wage is the legal floor for award/agreement-free employees. Award rates are higher and set by the Fair Work Commission for specific industries. For example, the Health Services Award and SCHADS Award have their own minimum rates. Casual employees receive a 25% loading on top of the base rate – so the casual minimum wage is $33.05 per hour (including loading).\n\nIf you are an EL1 employee, you are likely covered by an enterprise agreement, which may have different rates. Always check your specific award or agreement using the [pay guides](/blog) from the Fair Work Ombudsman.\n\n## Superannuation Paid on Top\n\nSuper is not included in your base salary. The super guarantee rate is 12% of ordinary earnings (as of 2026–27), paid by your employer on top of your gross pay. For an annual salary of $88,920, the super contribution would be $10,670.40, up to the maximum contribution base of $270,830. This means your total remuneration package is higher than your base salary.\n\n## Tax Considerations\n\nTax is deducted from your gross pay using the 2026–27 resident tax rates:\n- $0 – $18,200: nil\n- $18,201 – $45,000: 15%\n- $45,001 – $135,000: 30%\n- $135,001 – $190,000: 37%\n- $190,001+: 45%\n\nPlus a Medicare levy of 2% (for most people). For a $88,920 annual salary, the tax is approximately $17,542 plus Medicare $1,778, leaving a take-home of about $69,600. Use our [take-home pay](/topics/take-home) page for a detailed estimate.\n\n## Using the Timesheet Tool\n\nOur [timesheet](/) lets you enter your base hourly rate and optionally add 25% casual loading. It then calculates your annual, weekly, and fortnightly gross pay, plus estimated tax and super. This is a quick way to see how an EL1 salary compares to your current rate. Remember, the tool assumes a 38-hour week and no unpaid overtime.\n\n## Summary\n\nConverting an hourly rate to an annual EL1 salary is straightforward: multiply by 38 and then by 52. Fortnightly pay is double the weekly amount. Super is on top at 12%, and tax follows the ATO scales. Always check your specific award or agreement for exact rates. For more details, see our [hourly conversion](/topics/hourly-conversion) and [average pay](/topics/average-pay) pages.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

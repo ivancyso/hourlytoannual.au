@@ -1,0 +1,84 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Timesheet from "../components/Timesheet.astro";
+import salary from "../../data/salary-index.json";
+import { getPostIndex } from "../lib/posts";
+import { aud, ORDINARY_HOURS } from "../lib/pay";
+
+const guides = getPostIndex().slice(0, 6);
+const states = [...salary.states].sort((a, b) => b.weeklyAud - a.weeklyAud);
+const topWeekly = states[0]?.weeklyAud || 1;
+const nationalHourly = salary.national.fullTimeOrdinaryWeekly / ORDINARY_HOURS;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  name: "Hourly to annual timesheet",
+  applicationCategory: "FinanceApplication",
+  operatingSystem: "Web",
+  inLanguage: "en-AU",
+  url: "https://hourlytoannual.au/",
+  description:
+    "Convert an Australian hourly rate into a 38-hour year, a fortnight, tax, and super paid on top.",
+  offers: { "@type": "Offer", price: "0", priceCurrency: "AUD" },
+  areaServed: "AU",
+};
+---
+
+<BaseLayout
+  title="Hourly to annual"
+  description="Turn an Australian hourly rate into a 38-hour year, a fortnight, resident tax, and 12% super paid on top."
+  jsonLd={jsonLd}
+>
+  <Timesheet syncUrl note="Hours sit evenly on Monday to Friday. Anything above 38 hours is marked Extra, paid here at the same rate with no penalty, and left out of super." />
+
+  <section class="section below-fold">
+    <p class="kicker">May 2026</p>
+    <h2>Full-time ordinary time, by state</h2>
+    <p>
+      Australian full-time adults averaged {aud(salary.national.fullTimeOrdinaryWeekly)} a week in
+      ordinary time, about {aud(nationalHourly)} an hour on a 38-hour week. The all-employee average,
+      which includes part-time work, was {aud(salary.national.allEmployeesTotalWeekly)} a week.
+    </p>
+    <ol class="rank">
+      {
+        states.map((state) => (
+          <li class:list={{ "is-top": state.id === "act" }}>
+            <span>{state.name.replace("Australian Capital Territory", "ACT").replace("Northern Territory", "NT")}</span>
+            <span class="bar" aria-hidden="true">
+              <i style={`width:${Math.round((state.weeklyAud / topWeekly) * 100)}%`} />
+            </span>
+            <span class="num">{aud(state.weeklyAud * 52, 0)}</span>
+          </li>
+        ))
+      }
+    </ol>
+    <p class="fine">
+      Bars show a 52-week reading of ABS full-time adult ordinary-time earnings. They are averages,
+      not awards. <a href="/data">Full reference tables</a>.
+    </p>
+  </section>
+
+  <section class="section below-fold">
+    <p class="kicker">Guides</p>
+    <h2>Questions the timesheet keeps getting</h2>
+    {
+      guides.length ? (
+        <ol class="roster">
+          {guides.map((post) => (
+            <li class="roster-row">
+              <a href={`/blog/${post.slug}`}>
+                <em>{post.keyword}</em>
+                <strong>{post.title}</strong>
+                {post.salarySummary ? <span>{post.salarySummary}</span> : null}
+              </a>
+            </li>
+          ))}
+        </ol>
+      ) : (
+        <p>Guides are written in the order people ask pay questions. The first of them will land here.</p>
+      )
+    }
+    <p><a href="/blog">All guides</a></p>
+  </section>
+</BaseLayout>

@@ -1,0 +1,108 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath?: string;
+  ogType?: "website" | "article";
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+}
+
+const {
+  title,
+  description,
+  canonicalPath = Astro.url.pathname,
+  ogType = "website",
+  jsonLd,
+} = Astro.props;
+
+const siteName = "Hourly to annual";
+const siteUrl = Astro.site ?? new URL("https://hourlytoannual.au");
+const path = canonicalPath === "/" ? "/" : canonicalPath.replace(/\/$/, "");
+const canonical = new URL(path, siteUrl).toString();
+const fullTitle = title.includes(siteName) ? title : `${title} · ${siteName}`;
+const current = Astro.url.pathname.replace(/\/$/, "") || "/";
+
+const orgLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: siteName,
+  url: siteUrl.toString(),
+  logo: new URL("/favicon.svg", siteUrl).toString(),
+  description: "Australian timesheet that turns an hourly rate into a 38-hour year.",
+  areaServed: { "@type": "Country", name: "Australia" },
+  inLanguage: "en-AU",
+};
+
+const blocks = [orgLd, ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [])];
+
+const links = [
+  { href: "/", label: "Timesheet" },
+  { href: "/blog", label: "Guides" },
+  { href: "/data", label: "Reference" },
+  { href: "/about", label: "About" },
+];
+---
+
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="theme-color" content="#14202B" />
+    <meta name="description" content={description} />
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" />
+    <title>{fullTitle}</title>
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="en-AU" href={canonical} />
+    <link rel="alternate" hreflang="x-default" href={canonical} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="alternate" type="application/xml" href="/sitemap-index.xml" title="Sitemap" />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:locale" content="en_AU" />
+    <meta property="og:site_name" content={siteName} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL("/og.svg", siteUrl).toString()} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <script type="application/ld+json" set:html={JSON.stringify(blocks)} />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="/">Hourly to annual <span>.au</span></a>
+      <nav class="site-nav" aria-label="Primary">
+        {
+          links.map((link) => (
+            <a href={link.href} aria-current={current === link.href ? "page" : undefined}>
+              {link.label}
+            </a>
+          ))
+        }
+      </nav>
+    </header>
+    <main id="main">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <nav aria-label="Topics">
+        <a href="/topics/minimum-wage">Minimum wage</a>
+        <a href="/topics/take-home">Take-home pay</a>
+        <a href="/topics/super-and-packaging">Super and packaging</a>
+        <a href="/topics/average-pay">Average pay</a>
+        <a href="/topics/hourly-conversion">Hourly conversion</a>
+        <a href="/topics/job-pay">Job pay</a>
+      </nav>
+      <p>
+        A 38-hour week × 52. Super at 12% sits on top of ordinary earnings. Tax uses the 2026–27
+        resident scale. This is an estimate, not a pay ruling or tax advice.
+      </p>
+    </footer>
+  </body>
+</html>

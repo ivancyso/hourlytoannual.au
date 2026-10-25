@@ -1,0 +1,48 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { pageCount, PAGE_SIZE, postsForPage } from "../../../lib/posts";
+
+export function getStaticPaths() {
+  const pages = pageCount();
+  return Array.from({ length: Math.max(0, pages - 1) }, (_, index) => ({
+    params: { page: String(index + 2) },
+  }));
+}
+
+const page = Number(Astro.params.page);
+const posts = postsForPage(page);
+const pages = pageCount();
+const prev = page > 2 ? `/blog/page/${page - 1}` : "/blog";
+const next = page < pages ? `/blog/page/${page + 1}` : "";
+---
+
+<BaseLayout
+  title={`Pay guides, page ${page}`}
+  description="More Australian pay guides on hourly rates, minimum wages, take-home pay, and average earnings."
+  canonicalPath={`/blog/page/${page}`}
+>
+  <section class="section">
+    <p class="kicker">Guides</p>
+    <h1>Page {page}</h1>
+    <ol class="roster">
+      {
+        posts.map((post) => (
+          <li class="roster-row">
+            <a href={`/blog/${post.slug}`}>
+              <em>{post.keyword}</em>
+              <strong>{post.title}</strong>
+              <span>{post.salarySummary || post.description}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ol>
+    <nav class="pager" aria-label="Guide pages">
+      <a href={prev}>Previous</a>
+      <span>
+        Page {page} of {pages}
+      </span>
+      {next ? <a href={next}>Next</a> : null}
+    </nav>
+  </section>
+</BaseLayout>

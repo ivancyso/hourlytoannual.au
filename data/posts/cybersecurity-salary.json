@@ -1,0 +1,27 @@
+{
+  "id": 1022,
+  "slug": "cybersecurity-salary",
+  "keyword": "cybersecurity salary",
+  "title": "Cybersecurity Salary 2026: National Minimum Wage vs Award Rates",
+  "description": "Compare cybersecurity salary rates for 2026: National Minimum Wage $26.44/hr, Professional Employees Award $33.71/hr for graduates, and median analyst pay $99,733. Includes tax and",
+  "salarySummary": "For a cybersecurity professional on the Professional Employees Award, the minimum hourly rate is $33.71 for a Level 1 graduate (38-hour week), equating to $66,825 annually.",
+  "faqs": [
+    {
+      "q": "What is the National Minimum Wage from 1 July 2026?",
+      "a": "The National Minimum Wage is $26.44 per hour or $1,004.90 per week for a 38-hour week. Casual employees receive $33.05 per hour including the 25% casual loading."
+    },
+    {
+      "q": "Which award covers cybersecurity roles?",
+      "a": "The Professional Employees Award 2020 applies if the employer is principally in the IT, telecommunications, or quality auditing industry. Outside that, the National Minimum Wage is the legal floor."
+    },
+    {
+      "q": "How is superannuation calculated on a cybersecurity salary?",
+      "a": "Super guarantee is 12% of ordinary earnings, paid on top of the salary, up to the maximum contribution base of $270,830."
+    }
+  ],
+  "bodyMarkdown": "## Understanding the Cybersecurity Salary Landscape\n\nWhen you are looking at a cybersecurity salary, the first question is whether you are covered by an award or the National Minimum Wage. From 1 July 2026, the National Minimum Wage is $26.44 per hour, or $1,004.90 per week for a 38-hour week, as set by the Fair Work Ombudsman. Casual employees get $33.05 per hour including the 25% casual loading. But many cybersecurity roles fall under the Professional Employees Award 2020, which sets higher minimums.\n\n### Converting Hourly to Annual Pay\n\nThe standard formula is: hourly rate × hours per week × 52. We assume a 38-hour week unless stated otherwise. For example, the National Minimum Wage of $26.44 gives $26.44 × 38 × 52 = $52,245.44 per year. But the award minimum for a graduate cybersecurity professional with a three-year degree is $33.71 per hour, which works out to $33.71 × 38 × 52 = $66,825 annually. That is the Level 1 Graduate professional — pay point 1.1 rate from the Professional Employees Award, confirmed by the analysis of ATO and Fair Work data.\n\n### Award Minimums vs Market Rates\n\nThe award minimums are just the floor. According to the Australian Taxation Office’s 2023–24 tax returns, the median salary or wages for a cyber security analyst was $99,733, for a cyber security engineer $133,128, and for a cyber security architect $180,327. Jobs and Skills Australia puts median full-time earnings for ICT Security Specialists at $2,461 per week, or about $127,972 annually. These figures are well above the award minimums. The award applies only where the employer is principally in the IT, telecommunications, or quality auditing industry. A cybersecurity analyst working at a bank, hospital, or government department is not covered by that award and would instead rely on the National Minimum Wage or an enterprise agreement.\n\n### Fortnightly and Take-Home Pay\n\nA fortnight is simply the weekly amount multiplied by two. On the National Minimum Wage of $1,004.90 per week, a full-time employee takes home about $1,842 per fortnight after 2026–27 tax and the Medicare levy (assuming no HECS-HELP and private hospital cover). A cybersecurity analyst on the median $99,733 per year earns about $1,918 per week, or $3,836 per fortnight, with an estimated take-home of $2,973 per fortnight. The [take-home pay](/topics/take-home) page can help you estimate your own net income.\n\n### Casual Loading and Superannuation\n\nIf you work as a casual, you receive a 25% loading on top of the minimum hourly rate. For the National Minimum Wage, that is $33.05 per hour. For the award graduate rate, it is $42.14 per hour. Superannuation is paid on top of your ordinary earnings at 12% (the super guarantee rate for 2026–27), up to the maximum contribution base of $270,830. That means on a $66,825 award salary, your employer contributes an extra $8,019 to your super fund. On a $99,733 analyst salary, the super contribution would be $11,968. See [super and packaging](/topics/super-and-packaging) for more details.\n\n### Key Distinctions\n\n- **National Minimum Wage**: $26.44/hr, $1,004.90/week, casual $33.05/hr.\n- **Professional Employees Award (IT stream)**: Graduate minimum $33.71/hr, $66,825/yr; experienced Level 2 $39.77/hr, $78,836/yr.\n- **Market median (ATO)**: Cyber security analyst $99,733; engineer $133,128; architect $180,327.\n- **Casual loading**: 25% on top of the minimum hourly rate.\n- **Super**: 12% on ordinary earnings, paid on top, capped at $270,830.\n\nAlways check whether an award covers your role. If it does, the award rate is your legal minimum. If not, the National Minimum Wage applies. Use [the timesheet](/) to convert your hourly rate to annual, fortnightly, and weekly figures, and see the [pay guides](/blog) for the latest award rates.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

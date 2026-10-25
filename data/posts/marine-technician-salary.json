@@ -1,0 +1,27 @@
+{
+  "id": 1101,
+  "slug": "marine-technician-salary",
+  "keyword": "marine technician salary",
+  "title": "Marine Technician Salary: Hourly to Annual Guide for 2026",
+  "description": "Calculate your marine technician salary from hourly rates under the Marine Tourism Award. Includes 38-hour week, fortnight pay, tax, and super estimates.",
+  "salarySummary": "A full-time marine technician (Engineer MED III) earns $30.49 per hour under the Marine Tourism and Charter Vessels Award, equating to about $60,248 per year for a 38-hour week.",
+  "faqs": [
+    {
+      "q": "What is the typical marine technician salary under the Marine Tourism Award?",
+      "a": "The Marine Tourism and Charter Vessels Award 2020 covers marine technician roles such as Engineer MED III. For a full-time non-overnight charter employee, the minimum hourly rate is $30.49, giving an annual salary of roughly $60,248 (38 hours × 52 weeks). Casual employees receive a 25% loading, making the casual hourly rate $38.11."
+    },
+    {
+      "q": "How is casual loading applied to a marine technician salary?",
+      "a": "Casual loading is 25% on top of the base hourly rate. For example, an Engineer MED III on $30.49 per hour would receive $38.11 per hour as a casual. This loading is already included in the casual hourly rate shown in the award pay tables. Do not add it again when using the timesheet calculator."
+    },
+    {
+      "q": "What tax and super should I expect on a marine technician salary?",
+      "a": "For a $60,248 annual salary, the 2026–27 tax estimate is about $8,594 plus Medicare levy of 2% ($1,205), leaving around $50,449 take-home pay. Superannuation guarantee is 12% paid on top of ordinary earnings, up to the $270,830 maximum contribution base. Use the timesheet calculator to see your own figures."
+    }
+  ],
+  "bodyMarkdown": "## Understanding the Marine Technician Salary\n\nIf you are looking up a **marine technician salary**, the most relevant modern award is the Marine Tourism and Charter Vessels Award 2020 (MA000093). This award covers roles such as engineers, deckhands, and masters on charter vessels. A common classification for a marine technician is Engineer MED III, which under the award has a minimum hourly rate of **$30.49** for a full-time non-overnight charter employee.\n\nTo convert this hourly rate to an annual figure, use the standard formula: **hourly rate × hours per week × 52**. Assuming a 38-hour week (the ordinary hours for full-time employees under the award), the calculation is:\n\n$30.49 × 38 × 52 = **$60,248.24 per year**.\n\nThis is the gross annual salary before tax and super. The fortnightly equivalent is $30.49 × 38 × 2 = **$2,317.24**.\n\n### Award Rates vs National Minimum Wage\n\nThe National Minimum Wage from 1 July 2026 is **$26.44 per hour** or $1,004.90 per week for 38 hours [minimum wage](/topics/minimum-wage). A marine technician salary under the award is higher than the minimum, reflecting the skilled nature of the work. The award also provides higher rates for higher classifications such as Master IV ($31.05 per hour) and Engineer MED I ($34.14 per hour).\n\nFor casual employees, the award includes a 25% casual loading. The casual hourly rate for Engineer MED III is **$38.11**, which already includes the loading. When using the [timesheet](/), never add casual loading on top of a rate that already includes it.\n\n### Tax and Super Considerations\n\nUsing the 2026–27 resident tax rates, a marine technician earning $60,248 would pay:\n- Nil on the first $18,200\n- 15% on the next $26,800 ($4,020)\n- 30% on the remaining $15,248 ($4,574.40)\n- Total tax: **$8,594.40**\n- Medicare levy (2%): **$1,204.96**\n- Estimated take-home pay: **$50,448.88 per year** (about $4,204 per month or $970 per week).\n\nSuperannuation guarantee is **12% of ordinary earnings**, paid on top of your salary. For $60,248, that is an extra **$7,229.76** contributed to your super fund each year, subject to the $270,830 maximum contribution base. See [super and packaging](/topics/super-and-packaging) for more details.\n\n### Using the Timesheet Calculator\n\nTo calculate your own marine technician salary, enter your base hourly rate into the [timesheet](/). The tool assumes a 38-hour week and 52 weeks per year. You can also check the [pay guides](/blog) for the latest award rates from the Fair Work Ombudsman.\n\n### Summary\n\nA marine technician salary under the Marine Tourism Award is well above the National Minimum Wage. For a full-time Engineer MED III, expect around **$60,248 per year** before tax, with super paid on top. Casual employees earn a higher hourly rate but do not receive paid leave. Always refer to the official award or the Fair Work Commission’s Modern Awards Pay Database for the most accurate rates.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

@@ -1,0 +1,27 @@
+{
+  "id": 379,
+  "slug": "ot-salary",
+  "keyword": "ot salary",
+  "title": "Convert Your Hourly Rate to an Annual ot Salary: Casual Loading and Super Explained",
+  "description": "Learn how to convert your hourly rate to an annual ot salary using the 38-hour week, 52-week formula. Includes casual loading, super, tax, and National Minimum Wage figures from Fa",
+  "salarySummary": "For a standard 38-hour week, your annual ot salary is your hourly rate multiplied by 1,976 hours, with super paid on top.",
+  "faqs": [
+    {
+      "q": "How does casual loading affect my annual ot salary?",
+      "a": "Casual loading is an extra 25% on top of the base hourly rate to compensate for not receiving paid leave. When converting to an annual ot salary, you should first add the loading to your base rate (e.g., $26.44 becomes $33.05) before multiplying by hours and weeks. The Fair Work Ombudsman's pay guides show minimum rates including loading for casual employees."
+    },
+    {
+      "q": "Is superannuation included in my annual ot salary?",
+      "a": "No, super is paid on top of your ordinary time earnings. The super guarantee is 12% of your ot salary (up to the maximum contribution base of $270,830 per year). So if your annual ot salary is $60,000, your employer must contribute an additional $7,200 to your super fund."
+    },
+    {
+      "q": "What tax will I pay on my annual ot salary?",
+      "a": "For 2026–27, the resident tax rates are: nil on the first $18,200, 15% on income up to $45,000, 30% up to $135,000, 37% up to $190,000, and 45% above that. Plus a 2% Medicare levy (using 2025–26 single reduction thresholds). Use the ATO's tax tables for exact amounts."
+    }
+  ],
+  "bodyMarkdown": "## From Hourly to Annual: Your ot Salary\n\nWhen you're offered an hourly rate or a salary, it helps to compare them on the same basis. Your **ot salary** – short for ordinary time salary – is the annual gross pay you'd earn if you worked your ordinary hours every week, with no overtime, penalties or allowances. The standard formula is simple: **hourly rate × hours per week × 52 weeks.\n\nFor most full-time employees, ordinary hours are 38 per week under the National Minimum Wage Order. So the Fair Work Commission sets the national minimum at $26.44 per hour, which gives a weekly ot salary of $1004.90 for a 38-hour week. If you're casual, you get 25% loading on top – that's $33.05 per hour, making your annual ot salary $65,300 before super and $1,976 hours per year.\n\n### The 38-Hour Week and the Fortnight\n\nWhen you calculate your ot salary, it's also useful to know your fortnightly pay: just double your weekly figure. For a $30 per hour rate, weekly is $1,140, fortnightly $2,280. The Fair Work Ombudsman's [pay guides](/blog) list minimum rates for each award, which are often higher than the national minimum.\n\n### Casual Loading and Super Paid on Top\n\nYour ot salary is the base – it does not include casual loading or super. If you're casual, your hourly rate should already have the 25% loading added. Never enter a rate that already includes loading into a calculator that adds it again. The loading compensates for missing paid leave. Super is separate: the super guarantee is 12% of your ordinary time earnings, paid on top of your ot salary, up to the $270,830 maximum contribution base. So if your annual ot salary is $80,000, your employer adds $9,600 to your super.\n\n### Distinguishing Minimum Rates\n\nThe National Minimum Wage ($26.44) applies to award/agreement-free employees. Most workers are covered by an award, which sets higher minimum rates. For example, the SCHADS Award for home care disability employees received an increase of up to 15% from 1 December 2026. Always check your award's pay guide for the correct classification.\n\n### Tax on Your ot Salary\n\nOnce you have your annual ot salary, you can estimate tax using the 2026–27 resident rates: tax-free threshold $18,200, then 15% to $45,000, 30% to $135,000, 37% to $190,000, and 45% above. Medicare levy is 2% (using 2025–26 single reduction thresholds). The Australian Taxation Office provides full tables.\n\n### Example Calculation\n\nTake a base hourly rate of $35. For a full-time employee: $35 × 38 × 52 = $69,160 annual ot salary. For a casual: $35 × 1.25 = $43.75 per hour, then $43.75 × 38 × 52 = $86,450 annual ot salary. Super on the full-time ot salary is $8,299 (12% of $69,160). Tax on $69,160 is roughly $11,467 plus Medicare $1,383, leaving about $56,310 take-home.\n\n### Use Our Timesheet\n\nOur [timesheet](/) lets you enter your base hourly rate and optionally add 25% casual loading. It calculates your annual ot salary, fortnightly pay, tax, and super. Remember: super is paid on top, not deducted from your pay.\n\n### Key Takeaways\n\n- Annual ot salary = hourly rate × hours per week × 52 (assume 38 hours).\n- Casual loading is 25% on top of base rate.\n- Super is 12% of ordinary earnings, paid on top.\n- National Minimum Wage is $26.44 per hour, casual $33.05.\n- Use [casual loading](/topics/casual-loading) and [pay guides](/blog) to check your correct rate.\n\nThis estimate does not include unpaid overtime, penalties, allowances, or salary sacrifice. It's a guide, not a determination of your pay.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

@@ -1,0 +1,27 @@
+{
+  "id": 498,
+  "slug": "ophthalmologist-salary",
+  "keyword": "ophthalmologist salary",
+  "title": "Ophthalmologist Salary: Hourly to Annual Pay, Tax and Super Guide",
+  "description": "Learn how to calculate an ophthalmologist salary from hourly rate using 38-hour week. Includes award rates, fortnightly pay, tax withholding, and super guarantee.",
+  "salarySummary": "An ophthalmologist's salary under the Medical Practitioners Award is calculated from the hourly rate multiplied by 38 hours per week and 52 weeks per year, with superannuation paid on top.",
+  "faqs": [
+    {
+      "q": "How is an ophthalmologist's annual salary calculated from an hourly rate?",
+      "a": "Multiply the hourly rate by 38 hours per week and 52 weeks per year. For example, $100/hour × 38 × 52 = $197,600 per year. This assumes no unpaid overtime or penalty rates."
+    },
+    {
+      "q": "What is the minimum salary for an ophthalmologist under the Medical Practitioners Award?",
+      "a": "The Medical Practitioners Award 2020 sets minimum annual salaries for classifications like Intern ($66,432) and Senior Specialist. Ophthalmologists are typically classified as specialists, so the award minimum is higher. Check the award for current rates."
+    },
+    {
+      "q": "Does the super guarantee apply to an ophthalmologist's salary?",
+      "a": "Yes, employers must pay 12% super on ordinary earnings, paid on top of the salary, up to the maximum contribution base of $270,830 per year."
+    }
+  ],
+  "bodyMarkdown": "## Understanding the Ophthalmologist Salary\n\nThe keyword \"ophthalmologist salary\" is often calculated from an hourly rate. For a full-time employee working 38 ordinary hours per week, the annual salary equals the hourly rate multiplied by 38 hours per week and 52 weeks per year. For example, an hourly rate of $100 gives $197,600 per year. This is the base before tax and super.\n\n### How to Convert Hourly to Annual Pay\n\nThe standard formula is: hourly rate × hours per week × 52. We assume 38 hours per week for full-time. For part-time employees, use the actual weekly hours. The Fair Work Ombudsman's pay guides provide minimum rates for award-covered employees. The Medical Practitioners Award 2020 sets minimum annual salaries for classifications from Intern ($66,432) to Senior Specialist. For casual employees, a 25% casual loading is added on top of the ordinary hourly rate.\n\n### Fortnightly Pay and Tax Withholding\n\nFortnightly pay is weekly pay multiplied by 2. For a $100/hour rate, weekly pay is $3,800, so fortnightly is $7,600. The Australian Taxation Office provides tax tables for withholding. For a $197,600 annual salary, tax is calculated using the 2026-27 resident tax scale: nil to $18,200, 15% to $45,000, 30% to $135,000, 37% to $190,000, 45% above. Medicare levy generally 2%. For $197,600, tax is $54,790 and Medicare is $3,952, leaving after-tax $138,858.\n\n### Super and Super Guarantee\n\nSuper guarantee is 12% of ordinary earnings, paid on top of the salary. For $197,600, super is $23,712, but capped at the maximum contribution base of $270,830. This means the full super applies for most ophthalmologists.\n\n### Using the Medical Practitioners Award\n\nThe award sets minimum rates for ophthalmologists. For a Senior Specialist, the minimum annual salary is higher than Intern. The award also includes overtime rates: Monday to Saturday first 2 hours 150%, after 2 hours 200%, Sunday 200%, public holidays 250%. Casual loading is 25% on top of the ordinary hourly rate.\n\n### Practical Example\n\nIf an ophthalmologist earns $150 per hour, the annual salary is $150 × 38 × 52 = $296,400. Super at 12% is $35,568, paid on top. Tax and Medicare reduce the take-home pay. Use [the timesheet](/) to convert your hourly rate to annual. Check [pay guides](/blog) for award rates and [reference tables](/data) for tax.\n\n### Important Notes\n\nThe calculator assumes the same rate every week, no unpaid overtime, no penalty rates, no allowances, and no salary sacrifice. Super is estimated at 12% of ordinary earnings only, paid on top, and stops at the $270,830 maximum contribution base. Tax is the 2026-27 resident scale with the full tax-free threshold. Medicare uses the 2025-26 single reduction thresholds because the 2026-27 reduction thresholds were not confirmed here. HELP, the Medicare levy surcharge, and salary packaging are not deducted. This is an estimate, not a determination of your pay or tax.\n\n### Conclusion\n\nUnderstanding the ophthalmologist salary from hourly rate is straightforward with the formula hourly × 38 × 52. The award provides minimums, but actual earnings may be higher. Use [the timesheet](/) to calculate your own figures and [pay guides](/blog) for award rates.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

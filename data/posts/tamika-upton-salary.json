@@ -1,0 +1,27 @@
+{
+  "id": 502,
+  "slug": "tamika-upton-salary",
+  "keyword": "tamika upton salary",
+  "title": "Understanding Tamika Upton Salary: Hourly to Annual Conversion Under Australian Pay Rules",
+  "description": "Learn how to convert Tamika Upton salary from hourly to annual using Fair Work Ombudsman rates, including National Minimum Wage, award rates, casual loading, and super.",
+  "salarySummary": "Using the National Minimum Wage of $26.44 per hour for a 38-hour week, the annual gross pay is approximately $52,246.72 before tax and super.",
+  "faqs": [
+    {
+      "q": "How is annual salary calculated from an hourly rate?",
+      "a": "Multiply the hourly rate by the number of hours worked per week (typically 38 for full-time) and then by 52 weeks. For example, $26.44 × 38 × 52 = $52,246.72. This assumes no unpaid overtime, penalty rates, or allowances."
+    },
+    {
+      "q": "What is the difference between the National Minimum Wage and award rates?",
+      "a": "The National Minimum Wage ($26.44 per hour from 1 July 2026) applies to employees not covered by an award or enterprise agreement. Award rates are higher and set by industry or occupation, as detailed in the Fair Work Ombudsman's pay guides. Most employees are covered by an award."
+    },
+    {
+      "q": "How does casual loading affect pay?",
+      "a": "Casual employees receive a 25% loading on top of the base rate to compensate for not receiving paid leave. For the National Minimum Wage, the casual rate is $33.05 per hour ($26.44 + 25%). This loading is added to the base rate, not included in it."
+    }
+  ],
+  "bodyMarkdown": "## Introduction\n\nWhen converting a wage from hourly to annual, the basic formula is straightforward: **hourly rate × hours per week × 52**. This gives the gross annual pay before tax and super. For a full-time employee, the standard assumption is 38 hours per week, as set by the Fair Work Ombudsman. However, the actual figure depends on whether you are covered by the National Minimum Wage, a modern award, or an enterprise agreement. Let's use the example of Tamika Upton salary to walk through the process.\n\n## National Minimum Wage vs Award Rates\n\nThe National Minimum Wage from 1 July 2026 is $26.44 per hour, or $1,004.90 per week for 38 hours. This applies to employees not covered by an award or enterprise agreement. Most workers, however, are covered by a modern award, which sets higher minimum pay rates. The Fair Work Ombudsman publishes [pay guides](/blog) for each award, including penalty rates and allowances. For example, the Hair and Beauty Award (used in the Fair Work Ombudsman's example) has its own classification rates that exceed the National Minimum Wage.\n\nWhen estimating Tamika Upton salary, you must first identify the correct award or agreement. The Fair Work Ombudsman's Pay and Conditions Tool can help determine the applicable rate. If no award applies, the National Minimum Wage is the floor.\n\n## Casual Loading and Super\n\nCasual employees receive a 25% loading on top of the base rate. For the National Minimum Wage, that means $33.05 per hour. This loading is paid in lieu of annual leave, sick leave and other entitlements. The [casual loading](/) allows you to enter a base hourly rate and optionally add 25% casual loading. It then calculates weekly, fortnightly, and annual figures, along with estimated tax and super. For example, entering $26.44 (National Minimum Wage) with the casual loading checkbox gives a casual rate of $33.05. The tool uses the formula hourly × 38 × 52 for annual gross. Fortnightly pay is simply weekly × 2. This is useful for comparing Tamika Upton salary against award rates or enterprise agreements.\n\n## Tax and Take-Home Pay\n\nFrom the annual gross, tax is deducted using the 2026–27 resident tax scale: nil up to $18,200, 15% from $18,201 to $45,000, 30% to $135,000, 37% to $190,000, and 45% above that. Medicare levy is generally 2%. The [take-home pay](/topics/take-home) page provides more detail. For Tamika Upton salary at the National Minimum Wage ($52,246.72), the estimated tax would be around $6,517 (including Medicare), leaving about $45,730 take-home. Super at 12% adds $6,269.61 on top, but this is not part of the employee's take-home pay.\n\n## Important Considerations\n\nRemember that the conversion assumes the same rate every week, no unpaid overtime, no penalty rates, no allowances, and no salary sacrifice. If Tamika Upton salary is based on an award, the hourly rate may include allowances or penalty rates that vary. Always check the relevant [pay guides](/blog) for accurate figures. The Fair Work Ombudsman's [minimum wage](/topics/minimum-wage) page is a good starting point.\n\n## Conclusion\n\nWhether you are calculating Tamika Upton salary or your own, the key is to start with the correct hourly rate. Use the National Minimum Wage as a baseline, but most employees will have a higher award rate. Add casual loading if applicable, and remember that super is paid on top. The formula hourly × 38 × 52 gives a solid estimate, but always verify with official sources.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

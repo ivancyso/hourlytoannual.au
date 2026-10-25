@@ -1,0 +1,27 @@
+{
+  "id": 517,
+  "slug": "solicitor-salary",
+  "keyword": "solicitor salary",
+  "title": "Understanding Your Solicitor Salary: Hourly to Annual Conversion Under the Legal Services Award",
+  "description": "Learn how to convert a solicitor salary from hourly rates to annual pay using 38-hour weeks, including award rates, casual loading, super, and tax. Use our timesheet.",
+  "salarySummary": "For a Level 5 Law Graduate under the Legal Services Award, the minimum hourly rate is $33.99, giving an annual gross of about $67,180 for 38 hours per week.",
+  "faqs": [
+    {
+      "q": "How do I convert my solicitor salary from an hourly rate to annual pay?",
+      "a": "Use the formula: hourly rate × hours per week × 52. For a solicitor under the Legal Services Award, the standard week is 38 hours. Multiply by 38 then by 52 to get annual gross. For example, a Level 5 Law Graduate at $33.99/hour gives $33.99 × 38 × 52 = $67,180. Our timesheet does this automatically."
+    },
+    {
+      "q": "What is the casual loading for a solicitor salary?",
+      "a": "Under the Legal Services Award, a casual solicitor gets 25% loading on the base hourly rate. For a Level 5 Law Graduate, the casual rate is $33.99 plus 25% = $42.49/hour. This loading replaces leave entitlements."
+    },
+    {
+      "q": "How does super work for a solicitor salary?",
+      "a": "Super guarantee is 12% of ordinary earnings, paid on top of the hourly rate. For a solicitor salary, the super contribution base is $270,830 per year. For a solicitor earning $67,180, the super is $8,060. Our estimate includes super on top."
+    }
+  ],
+  "bodyMarkdown": "## How to Convert a Solicitor Salary from Hourly Rate to Annual Pay\n\n### The National Minimum Wage vs Award Rates\n\nFrom 1 July 2026, the National Minimum Wage is $26.44 per hour or $1,004.90 per week for a 38-hour week. But a solicitor salary under the Legal Services Award has higher rates. For a Level 5 Law Graduate, the minimum hourly rate is $33.99 per hour. This is the base for a solicitor salary.\n\n### How to Calculate Annual Gross\n\nAnnual gross = hourly × hours per week × 52. Assume 38 hours per week. For a solicitor salary, the weekly rate for Level 5 Law Graduate is $33.99 × 38 = $1,291.62 per week. Multiply by 52 gives $67,180 per year. The fortnightly pay is $1,291.62 × 2 = $2,583.24 per fortnight.\n\n### Fortnightly Pay and Super\n\nSuper guarantee 12% of ordinary earnings, paid on top. For a solicitor salary, the super is $67,180 × 12% = $8,060. The contribution base is $270,830 maximum. Our estimate includes super on top.\n\n### Casual Loading for Solicitors\n\nA casual solicitor gets 25% loading on the base rate. For a solicitor salary, the casual rate is $33.99 × 1.25 = $42.49 per hour. This loading is paid instead of leave. Our timesheet has a checkbox for casual loading.\n\n### Tax and Tax\n\nTax 2026–27 resident tax scale: nil to $18,200; 15% to $45,000; 30% to $135,000; 37% to $190,000; 45% above. Medicare levy 2% for single. For a solicitor salary, the tax on $67,180, the tax is $67,180 minus $18,200 = $22,180 × 15% = $3,327. Plus Medicare 2% = $1,343. Total $4,670. Net annual $62,510.\n\n### Using Our Timesheet\n\nOur timesheet converts hourly to annual. Type the base hourly rate. Check casual loading adds 25% on top. Never type a rate that already includes loading. The timesheet uses 38 hours per week.\n\n### Reference Tables\n\nFor more rates, see our reference tables for Legal Services Award.\n\n### Pay Guides\n\nOur pay guides have minimum rates for each classification.\n\n### Disclaimer\n\nAnnual pay is hourly × 38 × 52. Assumes same rate every week, no unpaid overtime, no penalty rates, no allowances, no salary sacrifice. Super 12% of ordinary earnings only, paid on top, stops at $270,830. Tax 2026–27 resident scale with full tax-free threshold. Medicare uses 2025–26 single reduction thresholds. HELP, Medicare levy surcharge, salary packaging not deducted. This is an estimate, not a determination.\n\nSee [the timesheet](/) and the [reference tables](/data) for the 38-hour working.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

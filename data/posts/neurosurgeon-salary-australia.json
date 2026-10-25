@@ -1,0 +1,27 @@
+{
+  "id": 382,
+  "slug": "neurosurgeon-salary-australia",
+  "keyword": "neurosurgeon salary australia",
+  "title": "Neurosurgeon Salary Australia: Hourly to Annual Conversion Guide",
+  "description": "Learn how to convert a neurosurgeon salary in Australia from hourly to annual, including tax, super, and the 38-hour week assumption. Compare with the National Minimum Wage.",
+  "salarySummary": "Neurosurgeons in Australia typically work 57 hours per week, and their annual salary can be estimated by multiplying an hourly rate by hours per week and 52 weeks.",
+  "faqs": [
+    {
+      "q": "What is the average neurosurgeon salary in Australia?",
+      "a": "The Australian Bureau of Statistics does not publish a specific average for neurosurgeons in its latest Employee Earnings and Hours release. However, the Jobs and Skills Australia profile notes that neurosurgeons work an average of 57 hours per week and 86% of workers work full-time. Professionals overall had average hourly earnings of $64.50 per hour, and neurosurgeons are among the highest-paid occupations. For a more precise figure, you would need to consult a customised ABS report or industry data."
+    },
+    {
+      "q": "How do I convert an hourly rate to an annual salary for a neurosurgeon?",
+      "a": "Use the formula: annual gross pay = hourly rate × hours per week × 52. For a neurosurgeon working 57 hours per week, if the hourly rate is $150, the annual estimate would be $150 × 57 × 52 = $444,600. However, the standard full-time assumption used on this site is 38 hours per week. If you are comparing a salaried offer, adjust the hours to the actual expected weekly hours. The [the timesheet](/) allows you to enter your own hourly rate and toggle casual loading."
+    },
+    {
+      "q": "Does the neurosurgeon salary include superannuation?",
+      "a": "No, the super guarantee is paid on top of the salary. For 2026–27, the super guarantee rate is 12% of ordinary earnings, up to the maximum contribution base of $270,830. When converting an hourly rate to annual, super is not included in the gross income figure. The [super and packaging](/topics/super-and-packaging) page explains how to estimate super contributions. Always check whether a quoted salary is inclusive or exclusive of super."
+    }
+  ],
+  "bodyMarkdown": "## Understanding Neurosurgeon Salary Australia\n\nWhen researching a neurosurgeon salary in Australia, you will find that these specialists are among the highest-paid medical professionals. According to the Jobs and Skills Australia, neurosurgeons perform surgery to correct disorders of the brain, spine and nervous system. The latest data from the Australian Bureau of Statistics (ABS) shows that professionals overall had average hourly earnings of $64.50 per hour, but neurosurgeons earn well above that. The Jobs and Skills Australia profile notes that neurosurgeons work an average of 57 hours per week, with 86% of workers employed full-time. The median age is 44 years, and only 18% are female. These figures highlight the demanding nature of the role.\n\n### How to Convert Hourly to Annual\n\nTo estimate a neurosurgeon salary from an hourly rate, use the formula: annual gross pay = hourly rate × hours per week × 52. The standard full-time assumption on this site uses 38 hours per week, but for neurosurgeons, you should use the actual expected hours. For example, if a neurosurgeon earns $200 per hour, the annual estimate would be $200 × 57 × 52 = $592,800. The fortnightly pay would be $200 × 57 × 2 = $11,400 per fortnight. The [reference tables](/data) provide average weekly earnings for all occupations.\n\n### National Minimum Wage vs Award Rates\nThe National Minimum Wage from 1 July 2026 is $26.44 per hour, or $1,004.90 per week for 38 hours. Casual loading of 25% applies on top, giving $33.05 per hour including loading. This is far below a neurosurgeon salary. Most neurosurgeons are covered by individual arrangements, not awards. The Fair Work Ombudsman sets the minimum standards, but neurosurgeons are not covered by an award. The [minimum wage](/topics/minimum-wage) page details the current rates.\n\n### Super and Tax Considerations\nSuper guarantee is 12% of ordinary earnings for 2026–27, paid on top of the salary, up to the maximum contribution base of $270,830. For a neurosurgeon earning $592,800, super would be $71,136, but only up to the cap. Tax is calculated using the 2026–27 resident rates: nil up to $18,200, 15% to $45,000, 30% to $135,000, 37% to $190,000, 45% above. Medicare levy is 2%. The [take-home pay](/topics/take-home) page estimates after-tax income.\n\n### Using the Timesheet for Your Own Rate\nThe [the timesheet](/) allows you to enter your base hourly rate and add casual loading if applicable. Do not enter a rate that already includes loading. The timesheet will calculate annual, fortnightly, and monthly estimates. It also shows super and tax estimates. Remember that the estimate assumes the same rate every week, no unpaid overtime, no penalty rates, and no salary sacrifice. For a neurosurgeon, actual pay may vary based on experience, location, and hospital agreements. Always consult a tax professional for your personal situation.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

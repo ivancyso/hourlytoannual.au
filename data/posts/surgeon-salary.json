@@ -1,0 +1,27 @@
+{
+  "id": 241,
+  "slug": "surgeon-salary",
+  "keyword": "surgeon salary",
+  "title": "Understanding Surgeon Salary: Hourly to Annual Conversion for 38-Hour Weeks",
+  "description": "Learn how to convert a surgeon salary from hourly to annual using a 38-hour week, 52-week year. Includes tax, super, and award rates from Fair Work and ABS.",
+  "salarySummary": "Based on ABS data, surgeons earn a median hourly rate of $80, working an average of 54 hours per week, but for a standard 38-hour week the annual equivalent would be approximately $158,080 before tax and super.",
+  "faqs": [
+    {
+      "q": "How do I calculate annual salary from an hourly rate for a surgeon?",
+      "a": "Multiply the hourly rate by hours worked per week, then by 52 weeks. For a standard full-time role of 38 hours, annual gross = hourly × 38 × 52. For surgeons, actual hours often exceed 38, so adjust accordingly. The Fair Work Ombudsman's Medical Practitioners Award provides minimum rates for interns and registrars, but specialist surgeons typically earn above award."
+    },
+    {
+      "q": "What is the median surgeon salary in Australia?",
+      "a": "According to the Australian Bureau of Statistics via Jobs and Skills Australia (May 2025), the median full-time weekly earnings for surgeons is $3,905, with median hourly earnings of $80. Average full-time hours are 54 per week. This is significantly higher than the National Minimum Wage of $26.44 per hour."
+    },
+    {
+      "q": "Does superannuation apply on top of surgeon salary?",
+      "a": "Yes. The superannuation guarantee requires employers to contribute 12% of ordinary earnings on top of the salary, up to the maximum contribution base of $270,830 (2026-27). For a surgeon earning $3,905 per week, super would be about $468.60 per week, but only up to the cap. Check the ATO for current limits."
+    }
+  ],
+  "bodyMarkdown": "## Introduction\n\nWhen you hear the term **surgeon salary**, it often refers to a high annual figure, but understanding how that translates to an hourly rate—or vice versa—is essential for comparing job offers, negotiating contracts, or planning your finances. This guide uses the standard 38-hour week and 52-week year to convert between hourly and annual pay, while also considering the unique working patterns of surgeons.\n\n### Converting Hourly to Annual\n\nThe basic formula is straightforward: **hourly rate × hours per week × 52 weeks**. For a full-time employee under the National Employment Standards, the ordinary hours are 38 per week. So if you have an hourly rate of $80 (the median for surgeons according to the ABS), the annual salary would be:\n\n$80 × 38 × 52 = $158,080\n\nHowever, many surgeons work well beyond 38 hours. The ABS reports an average of 54 hours per week for surgeons, which would give:\n\n$80 × 54 × 52 = $224,640\n\nWhen using [the timesheet](/) on this site, you can enter any hourly rate and adjust the hours per week. Always check whether the rate includes casual loading or penalty rates. For casual employees, the Fair Work Ombudsman requires a 25% casual loading on top of the base rate, but note that surgeons are typically permanent or contractors.\n\n### Surgeon Salary Context\n\nThe [pay guides](/blog) from Fair Work Ombudsman outline minimum award rates for medical practitioners under the Medical Practitioners Award 2020. For example, an Intern earns $33.62 per hour, a Registrar Pay Point 1 earns $40.61, and a Senior Registrar $53.07. These are minimums; specialist surgeons earn far more. The ABS Survey of Employee Earnings and Hours (May 2025) shows median weekly earnings for surgeons at $3,905, or $80 per hour. This is well above the National Minimum Wage of $26.44 per hour (from 1 July 2026).\n\nWhen comparing a surgeon salary, remember that many surgeons are self-employed or work under enterprise agreements that exceed award rates. The fortnightly equivalent of the median weekly earnings is $7,810 ($3,905 × 2).\n\n### Tax and Super Considerations\n\nUsing the 2026–27 resident tax rates:\n- Nil tax on first $18,200\n- 15% on income between $18,201 and $45,000\n- 30% on income between $45,001 and $135,000\n- 37% on income between $135,001 and $190,000\n- 45% on income above $190,000\n\nPlus the Medicare levy of 2% (with reductions for low income). For a surgeon earning $224,640, the tax would be substantial. The [take-home pay](/topics/take-home) calculator on this site can estimate after-tax amounts.\n\nSuperannuation is paid on top of the salary at 12% of ordinary earnings, up to the maximum contribution base of $270,830. For a surgeon earning $3,905 per week, super is about $468.60 per week, but only until the cap is reached. See [super and packaging](/topics/super-and-packaging) for more.\n\n### Using the Timesheet\n\nOur [the timesheet](/) tool lets you enter an hourly rate and see annual, fortnightly, and weekly figures. It assumes 38 hours per week unless you change it. You can also check the casual loading box to add 25% on top—but do not enter a rate that already includes loading. The tool uses the formula above and applies the tax and super estimates from the ATO and Fair Work data.\n\nRemember, the disclaimer applies: this is an estimate. Actual pay may include unpaid overtime, penalty rates, allowances, or salary sacrifice. Always consult a professional for your specific situation.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

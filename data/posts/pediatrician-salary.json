@@ -1,0 +1,27 @@
+{
+  "id": 387,
+  "slug": "pediatrician-salary",
+  "keyword": "pediatrician salary",
+  "title": "Understanding Your Pediatrician Salary: Hourly to Annual Pay in Australia",
+  "description": "Learn how to convert a pediatrician salary from hourly to annual pay using the 38-hour week, including tax, super, and award rates. Use our timesheet tool.",
+  "salarySummary": "A pediatrician salary under the Medical Practitioners Award starts at a minimum hourly rate that, when multiplied by 38 hours per week and 52 weeks, gives an annual gross pay before tax and super.",
+  "faqs": [
+    {
+      "q": "What is the National Minimum Wage from 1 July 2026?",
+      "a": "From 1 July 2026, the National Minimum Wage is $26.44 per hour, or $1,004.90 per week for a 38-hour week. Casual employees receive a 25% loading, bringing their rate to $33.05 per hour. This is the base rate for award/agreement-free adult employees."
+    },
+    {
+      "q": "How does casual loading affect my pay?",
+      "a": "Casual loading is an additional 25% paid on top of the base hourly rate to compensate for entitlements like paid leave. For example, if your base rate is $30.00 per hour, the casual rate becomes $37.50 per hour. Our timesheet tool has a checkbox to add casual loading automatically."
+    },
+    {
+      "q": "What is the super guarantee rate for 2026-26?",
+      "a": "The super guarantee rate is 12% of ordinary earnings, paid on top of your salary. For the 2026-27 financial year, the maximum contribution base is $270,830. Super is calculated on ordinary earnings and is paid in addition to your gross pay."
+    }
+  ],
+  "bodyMarkdown": "## Understanding Pay Calculations in Australia\n\nWhen you’re evaluating a job offer or negotiating a pay rise, knowing how to convert an hourly rate into annual, fortnightly, and weekly figures is essential. This is especially true for professionals like doctors, where a **pediatrician salary** might be quoted as an hourly rate under an award or as an annual package. In Australia, the Fair Work Ombudsman and the Fair Work Commission set minimum standards, and the Australian Taxation Office and the Australian Bureau of Statistics provide the benchmarks for tax and average earnings.\n\n### The National Minimum Wage and Award Rates\n\nThe National Minimum Wage from 1 July 2026 is $26.44 per hour for a 38-hour week, or $1,004.90 per week. This is the floor for award/agreement-free employees. However, most occupations are covered by a modern award that sets higher minimum rates. For example, a **pediatrician salary** is typically governed by the Medical Practitioners Award 2020, which provides minimum hourly rates well above the national minimum. The Fair Work Ombudsman’s pay guides list the current minimum rates for each classification, including allowances and penalty rates. Always check the relevant award to ensure you’re being paid correctly.\n\n### How to Calculate Annual Pay from an Hourly Rate\n\nThe standard formula for annual gross pay is:\n\n**Annual gross = hourly rate × hours per week × 52**\n\nWe assume a 38-hour week, which is the ordinary full-time hours in most awards. For a **pediatrician salary**, if the award rate is $60.00 per hour, the annual gross would be $60.00 × 38 × 52 = $118,560. This calculation assumes the same rate every week, no unpaid overtime, no penalty rates, and no allowances. It’s a starting point for understanding your total remuneration.\n\n### Fortnightly Pay and Budgeting\n\nMany employers pay fortnightly. To find your fortnightly gross, simply multiply your weekly pay by two. Using the example above, weekly pay is $60.00 × 38 = $2,280, so fortnightly is $4,560. This helps with budgeting and comparing job offers. Our [pay guides](/blog) page provides links to the official award rates, and our [minimum wage](/topics/minimum-wage) page explains the national standard in more detail.\n\n### Tax and Superannuation Considerations\n\nYour take-home pay depends on tax and the Medicare levy. For the 2026–27 financial year, the resident tax rates are:\n\n- Nil on the first $18,200\n- 15% on income from $18,201 to $45,000\n- 30% on income from $45,001 to $135,000\n- 37% on income from $135,001 to $190,000\n- 45% on income above $190,000\n\nA Medicare levy of 2% generally applies. Superannuation is paid on top of your salary at 12% of ordinary earnings, up to a maximum contribution base of $270,830. For a **pediatrician salary** of $118,560, the super contribution would be $14,227.20, bringing the total cost to the employer to $132,787.20.\n\n### Using the Timesheet Tool\n\nOur [timesheet](/) tool lets you enter your base hourly rate and optionally add the 25% casual loading. It then calculates your weekly, fortnightly, and annual gross pay, along with estimated tax and super. Remember, the tool assumes the same rate every week and does not include penalty rates, allowances, or salary sacrifice. Always refer to the official award or your employment agreement for precise figures.\n\nUnderstanding how a **pediatrician salary** converts from hourly to annual is crucial for financial planning. By using the standard 38-hour week and the latest tax and super rates, you can get a clear picture of your earnings.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": true,
+  "webSearchReason": "unknown-role"
+}

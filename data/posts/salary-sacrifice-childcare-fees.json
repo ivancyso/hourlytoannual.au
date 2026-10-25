@@ -1,0 +1,27 @@
+{
+  "id": 448,
+  "slug": "salary-sacrifice-childcare-fees",
+  "keyword": "salary sacrifice childcare fees",
+  "title": "Salary Sacrifice Childcare Fees: Convert Hourly Rate to Annual Pay with Tax and Super",
+  "description": "Use our timesheet to convert hourly rate to annual salary, including salary sacrifice childcare fees, tax, Medicare, and super. Based on 38-hour week and 2026-27 rates.",
+  "salarySummary": "Annual pay is hourly rate × hours per week × 52, assuming 38 hours per week, with super at 12% on top and tax using 2026-27 resident rates.",
+  "faqs": [
+    {
+      "q": "How does salary sacrifice childcare fees affect my annual pay calculation?",
+      "a": "Salary sacrifice childcare fees reduce your taxable income, which can lower your tax and Medicare levy. Our estimate does not include salary sacrifice, so you need to adjust your hourly rate or annual figure accordingly. Use the [super and packaging](/topics/super-and-packaging) guide for more details."
+    },
+    {
+      "q": "What tax rates apply to my annual salary in 2026-27?",
+      "a": "For 2026-27, resident tax rates are: nil up to $18,200, 15% from $18,201 to $45,000, 30% to $135,000, 37% to $190,000, and 45% above that. Medicare levy is generally 2%. The tax-free threshold is included. See [take-home pay](/topics/take-home) for an estimate."
+    },
+    {
+      "q": "Is superannuation guarantee paid on top of my hourly rate?",
+      "a": "Yes, super is paid on top of your ordinary earnings at 12% of ordinary earnings, up to the maximum contribution base of $270,830. Casual loading (25%) is added on top of the base hourly rate before super. Check [casual loading](/topics/casual-loading) for more."
+    }
+  ],
+  "bodyMarkdown": "## Convert Hourly Rate to Annual Pay with Salary Sacrifice Childcare Fees\n\nWhen you're negotiating a salary or comparing job offers, understanding how your hourly rate translates to annual pay is essential. This guide uses the standard 38-hour week and the 2026-27 tax and super rates. We also explain how salary sacrifice childcare fees can affect your take-home pay.\n\n### The Basic Formula\n\nAnnual gross pay = hourly rate × hours per week × 52. We assume a 38-hour week unless your award or agreement specifies otherwise. For example, if you earn $30 per hour, your annual gross is $30 × 38 × 52 = $59,280. This is before tax, Medicare, and super.\n\n### Fortnightly Pay\n\nMany employers pay fortnightly. Your fortnightly gross is weekly pay × 2. Using the same $30/hour rate, weekly pay = $30 × 38 = $1,140, so fortnightly = $2,280. This helps you budget and compare with salary offers.\n\n### Minimum Wage and Award Rates\n\nThe National Minimum Wage from 1 July 2026 is $26.44/hour, $1,004.9/week for 38 hours. Casual employees receive 25% loading, making the casual minimum $33.05/hour. Award rates may be higher. Always check your [pay guides](/blog) or [reference tables](/data) for your industry.\n\n### Superannuation on Top\n\nSuper guarantee is 12% of your ordinary earnings, paid on top of your hourly rate. It is not deducted from your pay. For $30/hour, annual super = $59,280 × 12% = $7,113.60, up to the $270,830 contribution base. This is an estimate; actual super depends on your ordinary earnings.\n\n### Tax and Medicare\n\nUsing 2026-27 resident tax rates: nil to $18,200; 15% to $45,000; 30% to $135,000; 37% to $190,000; 45% above. Medicare levy is generally 2% of taxable income. For $59,280, tax is approximately $5,742 (based on the brackets) plus Medicare $1,185.60. Our [take-home pay](/topics/take-home) tool can estimate your net pay.\n\n### Salary Sacrifice Childcare Fees\n\nSalary sacrifice childcare fees can reduce your taxable income, lowering your tax and Medicare. For example, if you salary sacrifice $10,000 of childcare fees, your taxable income drops to $49,280, reducing tax and Medicare. This is not included in our basic estimate. Use the [super and packaging](/blog), you type your base hourly rate. The checkbox adds 25% on top. Never type a rate that already includes loading. For $30 base, casual rate = $37.50. Annual gross = $30 × 38 × 52 = $59,280, but super is 12% on the base rate, not the casual rate. Check [casual loading](/blog). All employees total earnings average $1,579.2/week (includes part-time). These are averages, not a job median. Your pay may differ. See [average pay](/topics/average-pay) for more.\n\n### Final Thoughts\n\nUnderstanding your hourly to annual conversion helps you make informed decisions. Whether you are negotiating a salary or considering salary sacrifice childcare fees. Use our [hourly conversion](/topics/hourly-conversion] tool to see your annual figure. Remember to check your award or agreement for exact conditions.",
+  "model": "deepseek/deepseek-v4-flash",
+  "provider": "streamlake/fp8",
+  "webSearch": false,
+  "webSearchReason": "local-salary-db"
+}
